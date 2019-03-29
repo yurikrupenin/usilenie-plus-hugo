@@ -5,13 +5,6 @@ author: Юрий Крупенин
 type: post
 date: 2019-03-28T15:56:36+00:00
 featured_image: 'https://i1.wp.com/usilenie.plus/wp-content/uploads/2019/03/animated1-feb.gif?resize=320%2C320&ssl=1'
-enclosure:
-  - |
-    |
-        https://usilenie.plus/wp-content/uploads/2019/03/uUIRM06xfBUJUygm.mp4
-        4344157
-        video/mp4
-        
 categories:
   - Видеоигры
   - Выбор редакции
@@ -39,7 +32,7 @@ Switch повторил бы для меня судьбу 3ds, не получи
 Всю эту длиннющую подводку я написал с одной целью: я давно хотел поделиться списком игр для Switch, которые идеально попадают в формат, но мне было необходимо сначала объяснить, как я для себя этот формат вообще определяю. Итак, in no particular order:
 
 ## Axiom Verge
-![][axiom1]
+{{<figure src="/media/2019/iloveswitch/axiom1.jpg">}}
 
 Метроидвании: одни из главных союзников портативных платформ с незапамятных времён. Минимальная комфортная длина сессии &#8212; пара минут. Что-то требует отвлечься? Пожал плечами, не выключил даже, просто кинул в сторону консоль: к текущему месту от ближайшей точки сохранения, где всё было знакомо и исследованно, идти всё равно не дольше тридцати секунд. Конкретно здесь: гнетущая атмосфера, синтетическая музыка, не слишком безжалостные боссы размером в половину экрана.
 
@@ -93,13 +86,13 @@ Switch повторил бы для меня судьбу 3ds, не получи
 
 Я не думаю, что у меня есть нужда или моральное право что-то к этому добавлять.
 
-## Crypt of the NecroDancer<figure class="wp-block-video"><video controls src="https://usilenie.plus/wp-content/uploads/2019/03/uUIRM06xfBUJUygm.mp4"></video></figure> 
-
+## Crypt of the NecroDancer
+{{<video src="/media/2019/iloveswitch/necrodancer.mp4">}}
 Что произойдёт, если скрестить классический пошаговый роуглайк с ритмгеймом? Множество крайне глупых смертей, из-за которых вы будете на себя злиться ровно в достаточной степени, чтобы сделать ещё одну _последнюю_ попытку. Привыкание также вызывает и музыка Дэнни Барановски, будьте очень осторожны.
 
 ## Enter the Gungeon<figure class="wp-block-image">
 
-<img data-attachment-id="327" data-permalink="https://usilenie.plus/2019/03/28/switch-%d0%bc%d0%be%d1%8f-%d0%bb%d1%8e%d0%b1%d0%b8%d0%bc%d0%b0%d1%8f-%d0%bf%d0%bb%d0%b0%d1%82%d1%84%d0%be%d1%80%d0%bc%d0%b0-%d0%bd%d0%be-%d1%81%d1%80%d0%b5%d0%b4%d0%b8-%d0%bc%d0%be%d0%b8%d1%85-%d0%bb/gungeon_10/" data-orig-file="https://i0.wp.com/usilenie.plus/wp-content/uploads/2019/03/gungeon_10.jpg?fit=1280%2C720&ssl=1" data-orig-size="1280,720" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="gungeon_10" data-image-description="" data-medium-file="https://i0.wp.com/usilenie.plus/wp-content/uploads/2019/03/gungeon_10.jpg?fit=1024%2C576&ssl=1" data-large-file="https://i0.wp.com/usilenie.plus/wp-content/uploads/2019/03/gungeon_10.jpg?fit=723%2C407&ssl=1" src="https://i0.wp.com/usilenie.plus/wp-content/uploads/2019/03/gungeon_10.jpg?w=723&#038;ssl=1" alt="" class="wp-image-327" srcset="https://i0.wp.com/usilenie.plus/wp-content/uploads/2019/03/gungeon_10.jpg?w=1280&ssl=1 1280w, https://i0.wp.com/usilenie.plus/wp-content/uploads/2019/03/gungeon_10.jpg?resize=1024%2C576&ssl=1 1024w, https://i0.wp.com/usilenie.plus/wp-content/uploads/2019/03/gungeon_10.jpg?resize=768%2C432&ssl=1 768w" sizes="(max-width: 723px) 100vw, 723px" data-recalc-dims="1" /></figure> 
+<img data-attachment-id="327" data-permalink="https://usilenie.plus/2019/03/28/switch-%d0%bc%d0%be%d1%8f-%d0%bb%d1%8e%d0%b1%d0%b8%d0%bc%d0%b0%d1%8f-%d0%bf%d0%bb%d0%b0%d1%82%d1%84%d0%be%d1%80%d0%bc%d0%b0-%d0%bd%d0%be-%d1%81%d1%80%d0%b5%d0%b4%d0%b8-%d0%bc%d0%be%d0%b8%d1%85-%d0%bb/gungeon_10/" data-orig-file="https://i0.wp.com/usilenie.plus/wp-content/uploads/2019/03/gungeon_10.jpg?fit=1280%2C720&ssl=1" data-orig-size="1280,720" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="gungeon_10" data-image-description="" data-medium-file="https://i0.wp.com/usilenie.plus/wp-content/uploads/2019/03/gungeon_10.jpg?fit=1024%2C576&ssl=1" data-large-file="https://i0.wp.com/usilenie.plus/wp-content/uploads/2019/03/gungeon_10.jpg?fit=723%2C407&ssl=1" src="https://i0.wp.com/usilenie.plus/wp-content/uploads/2019/03/gungeon_10.jpg?w=723&#038;ssl=1" alt="" class="wp-image-327" srcset="https://i0.wp.com/usilenie.plus/wp-content/uploads/2019/03/gungeon_10.jpg?w=1280&ssl=1 1280w, https://i0.wp.com/usilenie.plus/wp-content/uploads/2019/03/gungeon_10.jpg?resize=1024%2C576&ssl=1 1024w, https://i0.wp.com/usilenie.plus/wp-content/uploads/2019/03/gungeon_10.jpg?resize=768%2C432&ssl=1 768w" sizes="(max-width: 723px) 100vw, 723px" data-recalc-dims="1" /></figure>
 
 &#8230;Если классический (ну, тут уже безошибочно риалтаймовый, но жанр достаточно трансформировался за последние годы, чтоб риалтаймовые считать тоже классическими) роуглайк с ритмгеймом не скрещивать, то с высокой вероятностью произойдёт уже что-то вроде Enter the Gungeon. Один из наиболее вариативных представителей жанра на платформе, если вы сможете заставить себя игнорировать местный юмор.
 
@@ -120,5 +113,5 @@ Switch повторил бы для меня судьбу 3ds, не получи
   * **Baba is You** &#8212; играю сейчас, и это восхитительно изобретательная головоломка, но&#8230; артворк банально мелковат для этого экрана? Возможно, мне надо чуть больше времени.
 
  [1]: https://usilenie.plus/2017/06/23/%D1%8F-%D0%BA%D1%83%D0%BF%D0%B8%D0%BB-switch-%D0%B0-%D0%BE%D0%BD-%D0%BE%D0%BA%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D0%B5%D1%82%D1%81%D1%8F-%D0%BE%D1%85%D1%83%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9/
- 
+
  [axiom1]: /media/2019/iloveswitch/axiom1.jpg "Axiom Verge"
