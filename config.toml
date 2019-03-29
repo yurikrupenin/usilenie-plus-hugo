@@ -1,4 +1,4 @@
-baseURL = "http://usilenie.plus/minus/"
+baseURL = "https://minus.usilenie.plus/"
 languageCode = "ru-ru"
 title = "Некстджен и Усиление+"
-theme = "kiera"
+theme = "beautiful"

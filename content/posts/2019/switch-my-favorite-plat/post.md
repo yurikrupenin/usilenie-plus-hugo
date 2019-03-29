@@ -3,7 +3,6 @@ title: Switch моя любимая платформа, но среди моих
 author: Юрий Крупенин
 type: post
 date: 2019-03-28T15:56:36+00:00
-url: /2019/03/28/switch-моя-любимая-платформа-но-среди-моих-л/
 featured_image: 'https://i1.wp.com/usilenie.plus/wp-content/uploads/2019/03/animated1-feb.gif?resize=320%2C320&ssl=1'
 medium_post:
   - 'O:11:"Medium_Post":11:{s:16:"author_image_url";N;s:10:"author_url";N;s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";N;s:2:"id";N;s:21:"follower_notification";N;s:7:"license";N;s:14:"publication_id";N;s:6:"status";N;s:3:"url";N;}'
