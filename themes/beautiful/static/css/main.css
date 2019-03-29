@@ -361,12 +361,13 @@ footer .theme-by {
 }
 
 .post-preview .post-title {
-  font-size: 30px;
+  font-size: 28px;
   margin-top: 0;
 }
 .post-preview .post-subtitle {
   margin: 0;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 .post-preview .post-meta,
@@ -414,7 +415,10 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
-    font-size: 36px;
+    font-size: 28px;
+  }
+  .post-preview .post-subtitle {
+    font-size: 20px;
   }
 }
 
@@ -524,11 +528,11 @@ footer .theme-by {
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 27px;
-  line-height: 1.1;
+  font-size: 22px;
+  line-height: 1.4;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   margin: 10px 0 0;
 }
 .intro-header .post-heading .post-subheading {
