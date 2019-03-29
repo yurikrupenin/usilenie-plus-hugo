@@ -1,11 +1,15 @@
 {{- partial "load-photoswipe-theme.html" . }}
 
-{{ if .IsHome }}
-  {{ if .Site.Params.homeTitle }}{{ $.Scratch.Set "title" .Site.Params.homeTitle }}{{ else }}{{ $.Scratch.Set "title" .Site.Title }}{{ end }}
+{{ if (.IsHome) }}
+  {{ if .Site.Params.homeTitle }}{{ $.Scratch.Set "title" .Site.Params.homeTitle }}{{ else }}{{ $.Scratch.Set "title" (.Site.Title) }}{{ end }}
   {{ if .Site.Params.subtitle }}{{ $.Scratch.Set "subtitle" .Site.Params.subtitle }}{{ end }}
-  {{ if .Site.Params.bigimg }}{{ $.Scratch.Set "bigimg" .Site.Params.bigimg }}{{ end }}
-{{ else }}
+{{ if .Site.Params.bigimg }}{{ $.Scratch.Set "bigimg" .Site.Params.bigimg }}{{ end }}
+{{ else if (.IsNode) }}
   {{ $.Scratch.Set "title" (i18n .Title) }}
+  {{ if .Params.subtitle }}{{ $.Scratch.Set "subtitle" .Params.subtitle }}{{ end }}
+  {{ if .Params.bigimg }}{{ $.Scratch.Set "bigimg" .Params.bigimg }}{{ end }}
+{{ else }}
+  {{ $.Scratch.Set "title" .Title }}
   {{ if .Params.subtitle }}{{ $.Scratch.Set "subtitle" .Params.subtitle }}{{ end }}
   {{ if .Params.bigimg }}{{ $.Scratch.Set "bigimg" .Params.bigimg }}{{ end }}
 {{ end }}
