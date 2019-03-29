@@ -29,14 +29,17 @@ enableMissingTranslationPlaceholders = true
 [[menu.main]]
  name = "Видеоигры"
  url = "categories/видеоигры"
+ weight = 1 
 
 [[menu.main]]
  name = "Велосипеды"
  url = "categories/велосипеды"
+ weight = 5 
 
 [[menu.main]]
  identifier = "other"
  name = "Другое"
+ weight = 10 
 
 [[menu.main]]
  parent = "other"
