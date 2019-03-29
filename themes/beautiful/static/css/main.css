@@ -504,6 +504,9 @@ footer .theme-by {
 .intro-header .tags-heading {
   text-align: center;
 }
+.intro-header .categories-heading {
+  text-align: center;
+}
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
   padding: 100px 0;
@@ -567,10 +570,13 @@ footer .theme-by {
   }
   .intro-header .page-heading h1,
   .intro-header .tags-heading h1 {
-    font-size: 80px;
+    font-size: 40px;
   }
   .intro-header .post-heading h1 {
     font-size: 50px;
+  }
+  .intro-header .categories-heading h1 {
+    font-size: 40px;
   }
   .intro-header.big-img .img-desc {
     font-size: 14px;
