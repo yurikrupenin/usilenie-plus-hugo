@@ -19,16 +19,19 @@
                   {{ .Params.subtitle }}
                   </h3>
                 {{ end }}
-                {{ if .Params.image }}
-                <img src="{{ .Params.image }}" alt="{{ .Title }}" class="img-title" />
+                {{ if and (.Params.featured_image) (.Site.Params.featuredImagesOnFrontpage) }}
+                <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" class="img-title" />
                 {{ end }}
               </a>
 
               {{ partial "post_meta.html" . }}
               <div class="post-entry">
                 {{ if .Truncated }}
-                  {{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Summary }}{{ end }}
-                  <a href="{{ .Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a>
+                {{ if .Params.summary }}
+                {{ .Params.summary }}
+                <a href="{{ .Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a>
+                {{ else }}
+                {{ end }}
                 {{ else }}
                   {{ .Content }}
                 {{ end }}
