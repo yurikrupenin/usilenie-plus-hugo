@@ -20,6 +20,9 @@ enableMissingTranslationPlaceholders = true
  twitter = "turbojedi"
  instagram = "turbojedi"
  github = "yurikrupenin"
+ twitch = "cubeofwood"
+ goodreads = "5512374-yuri-krupenin"
+ strava = "5870047"
 
 
 [[menu.main]]
