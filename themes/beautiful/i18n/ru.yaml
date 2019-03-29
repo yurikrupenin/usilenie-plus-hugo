@@ -14,9 +14,9 @@
 - id: readMore
   translation: "Далее"
 - id: olderPosts
-  translation: "Предыдущие записи"
+  translation: "Постарей"
 - id: newerPosts
-  translation: "Новые записи"
+  translation: "Посвежей"
 - id: previousPost
   translation: "Предыдущий"
 - id: nextPost
@@ -72,3 +72,27 @@
 # Related posts
 - id: seeAlso
   translation: "Смотрите также"
+
+- id: category
+  translation: "категория"
+
+- id: categories
+  translation: "категории"
+
+- id: Category
+  translation: "Категория"
+
+- id: Categories
+  translation: "Категории"
+
+- id: tag
+  translation: тэг
+
+- id: tags
+  translation: тэги
+
+- id: Tag
+  translation: Тэг
+
+- id: Tags
+  translation: Тэги

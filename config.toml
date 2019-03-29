@@ -5,6 +5,7 @@ title = "Некстджен и Усиление+"
 theme = "beautiful"
 disqusShortname = "nekstdzhen-i-usilenie"
 googleAnalytics = "UA-22075196-6"
+enableMissingTranslationPlaceholders = true
 
 [Params]
  subtitle = "Ненавидим видеоигры с 1992 года, теперь в журнальном формате"
