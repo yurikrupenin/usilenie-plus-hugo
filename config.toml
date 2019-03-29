@@ -1,4 +1,49 @@
 baseURL = "https://minus.usilenie.plus/"
+DefaultContentLanguage = "ru"
 languageCode = "ru-ru"
 title = "Некстджен и Усиление+"
 theme = "beautiful"
+disqusShortname = "nekstdzhen-i-usilenie"
+googleAnalytics = "UA-22075196-6"
+
+[Params]
+ subtitle = "Ненавидим видеоигры с 1992 года, теперь в журнальном формате"
+ logo = "img/logo.png"
+ favicon = "img/favicon.png"
+ rss = true
+ comments = true
+ showRelatedPosts = true
+
+[Author]
+ name = "Юрий Крупенин"
+ twitter = "turbojedi"
+ instagram = "turbojedi"
+ github = "yurikrupenin"
+
+
+[[menu.main]]
+ name = "Видеоигры"
+ url = "categories/видеоигры"
+
+[[menu.main]]
+ name = "Велосипеды"
+ url = "categories/велосипеды"
+
+[[menu.main]]
+ identifier = "other"
+ name = "Другое"
+
+[[menu.main]]
+ parent = "other"
+ name = "Технологии"
+ url = "categories/технологии"
+
+[[menu.main]]
+ parent = "other"
+ name = "Туризм"
+ url = "categories/туризм"
+
+[[menu.main]]
+ parent = "other"
+ name = "Шитпостинг"
+ url = "categories/шитпостинг"
