@@ -16,7 +16,7 @@
   {{- $description := printf "Overview of all pages with the %s #%s, such as: %s" .Data.Singular $.Title ( index .Pages 0).Title | truncate 160 }}
   {{- $.Scratch.Set "Description" $description }}
 
-  {{- $title := printf "Overview of all pages with the %s #%s" .Data.Singular $.Title }}
+  {{- $title := printf "Архив текстов (%s: %s)" ( i18n .Data.Singular) $.Title }}
   {{- $.Scratch.Set "Title" $title }}
 {{- else }}
   {{- $.Scratch.Set "Description" ( .Description | default .Params.subtitle | default .Summary ) }}
