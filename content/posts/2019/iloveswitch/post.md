@@ -4,6 +4,7 @@ subtitle: Но среди моих любимых игр для Switch нет э
 author: Юрий Крупенин
 type: post
 date: 2019-03-28T15:56:36+00:00
+url: "/2019/iloveswitch/"
 featured_image: "/media/2019/iloveswitch/downwell.gif"
 bigimg: [{src: "/media/2019/iloveswitch/cover.jpg"}]
 categories:
