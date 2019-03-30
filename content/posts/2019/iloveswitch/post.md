@@ -5,6 +5,7 @@ author: Юрий Крупенин
 type: post
 date: 2019-03-28T15:56:36+00:00
 featured_image: "/media/2019/iloveswitch/downwell.gif"
+bigimg: [{src: "/media/2019/iloveswitch/cover.jpg"}]
 categories:
   - Видеоигры
   - Выбор редакции
