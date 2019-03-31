@@ -7,6 +7,10 @@ disqusShortname = "nekstdzhen-i-usilenie"
 googleAnalytics = "UA-22075196-6"
 enableMissingTranslationPlaceholders = true
 
+[blackfriday]
+angledQuotes = true
+hrefTargetBlank = true
+
 [Params]
  subtitle = "Ненавидим видеоигры с 1992 года, теперь в журнальном формате"
  logo = "img/logo.png"
@@ -15,6 +19,9 @@ enableMissingTranslationPlaceholders = true
  comments = true
  showRelatedPosts = true
  featuredImagesOnFrontpage = false
+
+[[Params.bigimg]]
+ src = "/media/design/header-bigimg.jpg"
 
 [Author]
  name = "Юрий Крупенин"
@@ -29,29 +36,38 @@ enableMissingTranslationPlaceholders = true
 [[menu.main]]
  name = "Видеоигры"
  url = "categories/видеоигры"
- weight = 1 
+ weight = 1
 
 [[menu.main]]
  name = "Велосипеды"
  url = "categories/велосипеды"
- weight = 5 
+ weight = 5
 
 [[menu.main]]
  identifier = "other"
  name = "Другое"
- weight = 10 
+ weight = 10
 
 [[menu.main]]
  parent = "other"
  name = "Технологии"
  url = "categories/технологии"
+ weight = 1
 
 [[menu.main]]
  parent = "other"
  name = "Туризм"
  url = "categories/туризм"
+ weight = 3
 
 [[menu.main]]
  parent = "other"
  name = "Шитпостинг"
  url = "categories/шитпостинг"
+ weight = 5
+
+ [[menu.main]]
+ parent = "other"
+ name = "Все категории"
+ url = "categories"
+ weight = 10
