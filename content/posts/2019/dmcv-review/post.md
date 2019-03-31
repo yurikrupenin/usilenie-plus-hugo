@@ -5,7 +5,7 @@ author: Юрий Крупенин
 type: post
 date: 2019-03-11T16:09:33+00:00
 url: '/2019/dmcv-review'
-featured_image: '/media/2019/dmcv-review/feautured.jpg'
+featured_image: '/media/2019/dmcv-review/featured.jpg'
 bigimg: [{src: '/media/2019/dmcv-review/cover1.jpg'},
          {src: '/media/2019/dmcv-review/cover2.jpg'},
          {src: '/media/2019/dmcv-review/cover3.jpg'}]

@@ -5,7 +5,7 @@ author: Юрий Крупенин
 type: post
 date: 2019-02-14T11:53:07+00:00
 url: /2019/рояль-схуяль/
-featured_image: '/media/apex-tetris/featured.png'
+featured_image: '/media/2019/apex-tetris/featured.png'
 bigimg: [{src: '/media/2019/apex-tetris/cover1.jpg'},
          {src: '/media/2019/apex-tetris/cover2.jpg'}]
 categories:
