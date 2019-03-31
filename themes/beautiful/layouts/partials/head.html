@@ -40,12 +40,12 @@
 {{- with .Site.Author.name }}
   <meta name="author" content="{{ . }}"/>
 {{- end }}
-{{- partial "seo/main.html" . }}  
+{{- partial "seo/main.html" . }}
 {{- with .Site.Params.favicon }}
   <link href='{{ . | absURL }}' rel='icon' type='image/x-icon'/>
 {{- end -}}
 <!-- Social Media Tags -->
-{{- with .Params.share_img | default .Params.image | default .Site.Params.logo }}
+{{- with .Params.share_img | default .Params.featured_image | default .Params.bigimg | default .Site.Params.logo }}
   <meta property="og:image" content="{{ . | absURL }}" />
   <meta name="twitter:image" content="{{ . | absURL }}" />
 {{- end }}
@@ -94,7 +94,7 @@
   <link rel="stylesheet" href="{{ "css/syntax.css" | absURL }}" />
   {{- end -}}
   <link rel="stylesheet" href="{{ "css/codeblock.css" | absURL }}" />
-  
+
   {{- if .Site.Params.staticman.recaptcha -}}
   <script src='https://www.google.com/recaptcha/api.js'></script>
   {{- end -}}
