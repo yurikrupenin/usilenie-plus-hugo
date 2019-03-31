@@ -6,7 +6,9 @@ type: post
 date: 2019-03-28T15:56:36+00:00
 url: "/2019/iloveswitch/"
 featured_image: "/media/2019/iloveswitch/downwell.gif"
-bigimg: [{src: "/media/2019/iloveswitch/cover.jpg"}]
+bigimg: [{src: "/media/2019/iloveswitch/cover1.jpg"},
+         {src: "/media/2019/iloveswitch/cover2.jpg"},
+         {src: "/media/2019/iloveswitch/cover3.jpg"}]
 categories:
   - Видеоигры
   - Выбор редакции
