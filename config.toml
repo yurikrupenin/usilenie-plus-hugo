@@ -32,6 +32,11 @@ hrefTargetBlank = true
  goodreads = "5512374-yuri-krupenin"
  strava = "5870047"
 
+ [imaging]
+ resampleFilter = "lanczos"
+ anchor = "smart"
+ quality = 95
+
 
 [[menu.main]]
  name = "Видеоигры"

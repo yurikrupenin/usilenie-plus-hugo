@@ -17,19 +17,20 @@ tags:
   - Шри-Ланка
 
 ---
+
 {{<gallery>}}
-  {{<figure src="/media/2017/srilanka/gallery1.jpg" >}}
-  {{<figure src="/media/2017/srilanka/gallery2.jpg" >}}
-  {{<figure src="/media/2017/srilanka/gallery3.jpg" >}}
-  {{<figure src="/media/2017/srilanka/gallery4.jpg" >}}
-  {{<figure src="/media/2017/srilanka/gallery5.jpg" >}}
-  {{<figure src="/media/2017/srilanka/gallery6.jpg" >}}
-  {{<figure src="/media/2017/srilanka/gallery7.jpg" >}}
-  {{<figure src="/media/2017/srilanka/gallery8.jpg" >}}
-  {{<figure src="/media/2017/srilanka/gallery9.jpg" >}}
-  {{<figure src="/media/2017/srilanka/gallery10.jpg" >}}
-  {{<figure src="/media/2017/srilanka/gallery11.jpg" >}}
-  {{<figure src="/media/2017/srilanka/gallery12.jpg" >}}
+  {{<img src="images/gallery1" >}}
+  {{<img src="images/gallery2" >}}
+  {{<img src="images/gallery3" >}}
+  {{<img src="images/gallery4" >}}
+  {{<img src="images/gallery5" >}}
+  {{<img src="images/gallery6" >}}
+  {{<img src="images/gallery7" >}}
+  {{<img src="images/gallery8" >}}
+  {{<img src="images/gallery9" >}}
+  {{<img src="images/gallery10" >}}
+  {{<img src="images/gallery11" >}}
+  {{<img src="images/gallery12" >}}
 {{</gallery>}}
 
 Я должен как-то выразить своё восхищение дорожным движением в Коломбо, столице Шри-Ланки. У меня было всего два дня на изучение местных особенностей ПДД, но я успел точно установить, что здесь есть одно главное правило поведения на дороге и оно звучит следующим образом: **ХУЯРЬ ТАК ЧТОБ ФИЛЬМ MAD MAX FURY ROAD КАЗАЛСЯ БЛЯДЯМ ЛЕКЦИЕЙ ПО БЕЗОПАСНОМУ ВОЖДЕНИЮ.**
