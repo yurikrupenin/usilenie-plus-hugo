@@ -3,6 +3,16 @@ Put this file in /static/css/hugo-easy-gallery.css
 Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
 */
 
+.blur-up {
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+	transition: filter 1200ms, -webkit-filter 800ms;
+}
+
+.blur-up.lazyloaded {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
 
 /*
 Grid Layout Styles
@@ -41,19 +51,6 @@ Grid Layout Styles
    }
 }
 
-/*
-Transition styles
-*/
-.gallery.hover-transition figure,
-.gallery.hover-effect-zoom .img,
-.gallery.hover-effect-zoom .lazyimg, 
-.gallery:not(.caption-effect-appear) figcaption,
-.fancy-figure:not(.caption-effect-appear) figcaption {
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
 /*
 figure styles
 */
@@ -102,7 +99,7 @@ img / a styles
     display: none; /* only show the img if not inside a gallery */
 }
 
-.gallery .lazyimg {
+.gallery .lazyload {
     position: absolute;
     left: 0;
     right: 0;
@@ -112,10 +109,27 @@ img / a styles
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
-.gallery.hover-effect-zoom figure:hover .lazyimg {
+.gallery.hover-effect-zoom figure:hover .lazyload {
     transform: scale(1.05);
 }
-.gallery lazyimg {
+.gallery lazyload {
+    display: none; /* only show the img if not inside a gallery */
+}
+
+.gallery .lazyloaded {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.gallery.hover-effect-zoom figure:hover .lazyloaded {
+    transform: scale(1.05);
+}
+.gallery lazyloaded {
     display: none; /* only show the img if not inside a gallery */
 }
 

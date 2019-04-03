@@ -1,8 +1,8 @@
 {{ $original := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
 {{ if .Parent }}
-  {{ .Scratch.Set "image" ($original.Fill "200x200 center q90") }}
+  {{ .Scratch.Set "image" ($original.Fill "64x64 center q60") }}
 {{ else }}
-  {{ .Scratch.Set "image" ($original.Fit "200x200 center q90") }}
+  {{ .Scratch.Set "image" ($original.Fit "64x64 center q60") }}
 {{ end }}
 {{ $thumb := .Scratch.Get "image" }}
 
@@ -12,17 +12,12 @@
 {{- $.Page.Scratch.Add "figurecount" 1 -}}
 <div class="box{{ with .Get "caption-position" }} fancy-figure caption-position-{{.}}{{end}}{{ with .Get "caption-effect" }} caption-effect-{{.}}{{end}}" style="max-width:{{ $original.Width }}">
   <figure {{ with .Get "class" }}class="{{.}}"{{ end }} itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    {{ if .Parent }}
-    <div class="lazyimg" style="background-image: url('{{ $thumb.RelPermalink }}');" data-src="{{ $original.RelPermalink }}"{{ with .Get "$original.Size" }} data-size="{{.}}"{{ end }}>
-      {{ else }}
-      <div class="img">
-      {{ end }}
-      {{ if .Parent }}
-      <img itemprop="thumbnail" width="{{ $original.Width }}" src="{{ $thumb.RelPermalink }}" {{ with .Get "alt" | default (.Get "caption") | default $thumb.RelPermalink }}alt="{{.}}"{{ end }}/><!-- <img> hidden if in .gallery -->
-      {{ else }}
-      <img class="lazyimg" itemprop="thumbnail" width="{{ $original.Width }}" src="{{ $thumb.RelPermalink }}" data-src="{{ $original.RelPermalink }}"{{ with .Get "alt" | default (.Get "caption") | default $thumb.RelPermalink }}alt="{{.}}"{{ end }}/><!-- <img> hidden if in .gallery -->
-
-      {{ end }}
+{{ if .Parent }}
+    <div class="lazyload blur-up" style="background-image: url('{{ $thumb.RelPermalink }}');" data-bg="{{ $original.RelPermalink | absURL}}">
+{{ else }}
+    <div class="img">
+{{ end }}
+	    <img class="lazyload blur-up" itemprop="thumbnail" width="{{ $original.Width }}" src="{{ $thumb.RelPermalink }}" data-src="{{ $original.RelPermalink }}"{{ with .Get "alt" | default (.Get "caption") | default $thumb.RelPermalink }} alt="{{.}}"{{ end }}/><!-- <img> hidden if in .gallery -->
     </div>
     <a href="{{ $original.RelPermalink }}" itemprop="contentUrl" data-size="{{ $original.Width }}x{{ $original.Height }}"></a>
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
