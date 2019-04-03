@@ -17,9 +17,9 @@ tags:
 
 
 {{<gallery>}}
-  {{<figure src="/media/2018/nvidia-is-love/graph1.jpg" title="Обратите внимание на шкалу">}}
-  {{<figure src="/media/2018/nvidia-is-love/graph2.jpg" title="Nvidia, миленькая, пожалуйста. ПОЖАЛУЙСТА.">}}
-  {{<figure src="/media/2018/nvidia-is-love/graph3.jpg" title="Серьёзно, я понятия не имею, настоящий ли этот.">}}
+  {{<img src="images/graph1" caption="Обратите внимание на шкалу">}}
+  {{<img src="images/graph2" caption="Nvidia, миленькая, пожалуйста. ПОЖАЛУЙСТА.">}}
+  {{<img src="images/graph3" caption="Серьёзно, я понятия не имею, настоящий ли этот.">}}
 {{</gallery>}}
 \
 \

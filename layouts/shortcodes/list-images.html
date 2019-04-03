@@ -1,0 +1,5 @@
+<ul>
+{{ range .Page.Resources }}
+  <li><a href="{{ .RelPermalink }}">{{ .ResourceType | title }}</a></li>
+{{ end }}
+</ul>

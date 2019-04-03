@@ -104,12 +104,12 @@ tags:
 Возможно, по второму пункту я чего-то не знаю, потому что не интересовался темой слишком сильно. Буду рад, если вы мне расскажете, что существует что-то интересное.
 
 {{<gallery>}}
-  {{<figure src="/media/2018/my-touring-setup/chinese-light-1.png"
-     title="Мощность водонепроницаемый перезаряжаемые">}}
-  {{<figure src="/media/2018/my-touring-setup/chinese-light-2.png"
-     title="Велосипед свет безопасности">}}
-  {{<figure src="/media/2018/my-touring-setup/chinese-light-3.png"
-     title="Авария опасность смерть жопа">}}
+  {{<img src="images/chinese-light-1.png"
+     caption="Мощность водонепроницаемый перезаряжаемые">}}
+  {{<img src="images/chinese-light-2"
+     caption="Велосипед свет безопасности">}}
+  {{<img src="images/chinese-light-3"
+     caption="Авария опасность смерть жопа">}}
 {{</gallery>}}
 
 

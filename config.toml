@@ -6,6 +6,7 @@ theme = "beautiful"
 disqusShortname = "nekstdzhen-i-usilenie"
 googleAnalytics = "UA-22075196-6"
 enableMissingTranslationPlaceholders = true
+timeout = 3600000
 
 [blackfriday]
 angledQuotes = true
@@ -31,6 +32,11 @@ hrefTargetBlank = true
  twitch = "cubeofwood"
  goodreads = "5512374-yuri-krupenin"
  strava = "5870047"
+
+ [imaging]
+ resampleFilter = "lanczos"
+ anchor = "smart"
+ quality = 95
 
 
 [[menu.main]]
