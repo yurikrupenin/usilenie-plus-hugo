@@ -66,11 +66,13 @@
 <script src="{{ "js/auto-render.min.js" | absURL }}"></script>
 <script src="{{ "js/jquery.min.js" | absURL }}"></script>
 <script src="{{ "js/bootstrap.min.js" | absURL }}"></script>
+<script src="{{ "js/lazyload.min.js" | absURL }}"></script>
 {{- else -}}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.6/dist/lazyload.min.js" integrity="sha384-jG1Qm24LexBipt7cZ2BEh+FgYgufBl23XOdboZPud64L1TsBoiLdotPyVRaYhVfW" crossorigin="anonymous"></script>
 {{- end }}
 
 <script src="{{ "js/main.js" | absURL }}"></script>
@@ -92,6 +94,48 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
 {{- end -}}
 <script src="{{ "js/load-photoswipe.js" | absURL }}"></script>
+
+<script>
+  (function() {
+				function logElementEvent(eventName, element) {
+					console.log(
+						Date.now(),
+						eventName,
+						element.getAttribute("data-src")
+					);
+				}
+				var callback_enter = function(element) {
+					logElementEvent("--> ENTERED", element);
+				};
+				var callback_exit = function(element) {
+					logElementEvent("<-- EXITED", element);
+				};
+				var callback_reveal = function(element) {
+					logElementEvent("-o- REVEALED", element);
+				};
+				var callback_loaded = function(element) {
+					logElementEvent("-O- LOADED", element);
+				};
+				var callback_error = function(element) {
+					logElementEvent("::: ERROR", element);
+					element.src =
+						"https://via.placeholder.com/440x560/?text=Error+Placeholder";
+				};
+				var callback_finish = function() {
+					logElementEvent("\\o/ FINISHED", document.documentElement);
+				};
+				var ll = new LazyLoad({
+					elements_selector: ".lazyimg",
+					// Assign the callbacks defined above
+					callback_enter: callback_enter,
+					callback_exit: callback_exit,
+					callback_reveal: callback_reveal,
+					callback_loaded: callback_loaded,
+					callback_error: callback_error,
+					callback_finish: callback_finish
+				});
+			})();
+</script>
 
 <!-- Google Custom Search Engine -->
 {{ if .Site.Params.gcse }}

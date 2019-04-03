@@ -45,7 +45,8 @@ Grid Layout Styles
 Transition styles
 */
 .gallery.hover-transition figure,
-.gallery.hover-effect-zoom .img, 
+.gallery.hover-effect-zoom .img,
+.gallery.hover-effect-zoom .lazyimg, 
 .gallery:not(.caption-effect-appear) figcaption,
 .fancy-figure:not(.caption-effect-appear) figcaption {
     -webkit-transition: all 0.3s ease-in-out;
@@ -100,6 +101,24 @@ img / a styles
 .gallery img {
     display: none; /* only show the img if not inside a gallery */
 }
+
+.gallery .lazyimg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.gallery.hover-effect-zoom figure:hover .lazyimg {
+    transform: scale(1.05);
+}
+.gallery lazyimg {
+    display: none; /* only show the img if not inside a gallery */
+}
+
 figure a {
     position: absolute;
     left: 0;
