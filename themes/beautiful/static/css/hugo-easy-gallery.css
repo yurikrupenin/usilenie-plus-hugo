@@ -4,7 +4,6 @@ Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
 */
 
 .blur-up {
-	-webkit-filter: blur(5px);
 	filter: blur(5px);
 	transition: filter 800ms, -webkit-filter 800ms;
 }
@@ -17,7 +16,6 @@ Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
 }
 
 .blur-up.lazyloaded {
-	-webkit-filter: blur(0);
 	filter: blur(0);
 }
 
