@@ -4,13 +4,16 @@ Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
 */
 
 .blur-up {
-	-webkit-filter: blur(5px);
 	filter: blur(5px);
-	transition: filter 1200ms, -webkit-filter 800ms;
+	transition: filter 800ms;
+}
+
+.blur-up.lazyloading {
+        filter: blur(5px);
+        transition: filter 800ms;
 }
 
 .blur-up.lazyloaded {
-	-webkit-filter: blur(0);
 	filter: blur(0);
 }
 
@@ -115,6 +118,24 @@ img / a styles
 .gallery lazyload {
     display: none; /* only show the img if not inside a gallery */
 }
+
+.gallery .lazyloading {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.gallery.hover-effect-zoom figure:hover .lazyloading {
+    transform: scale(1.05);
+}
+.gallery lazyloading {
+    display: none; /* only show the img if not inside a gallery */
+}
+
 
 .gallery .lazyloaded {
     position: absolute;
