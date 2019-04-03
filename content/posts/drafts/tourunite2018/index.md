@@ -28,7 +28,7 @@ _Начало нового сезона и перезапуск сайта с н
 
 \
 
-{{<figure src="/media/2019/tourunite2018/massstart2017.jpg"
+{{<figure src="images/massstart2017.jpg"
 caption="Эй, тут же я на первом масс-старте в 2017 году! (Фотография с официального сайта)">}}
 
 \
@@ -38,23 +38,23 @@ caption="Эй, тут же я на первом масс-старте в 2017 г
 \
 
 {{<gallery>}}
-  {{<figure src="/media/2019/tourunite2018/tu2017-1.jpg"
+  {{<img src="images/tu2017-1.jpg"
      caption="Я до вот этого вечера не верил, что такой свет вообще бывает где-то кроме фильмов с дорогой цветокоррекцией">}}
-  {{<figure src="/media/2019/tourunite2018/tu2017-2.jpg"
+  {{<img src="images/tu2017-2.jpg"
      caption="А вживую выглядит, не поверите, ещё невероятней">}}
-  {{<figure src="/media/2019/tourunite2018/tu2017-3.jpg"
+  {{<img src="images/tu2017-3.jpg"
      caption="Да, порванная на второй день покрышка; какое счастье, что у Ильи была с собой игла с нитью">}}
-  {{<figure src="/media/2019/tourunite2018/tu2017-4.jpg"
+  {{<img src="images/tu2017-4.jpg"
      caption="Бесконечные, залитые светом пространства; это уже чуть южнее">}}
-  {{<figure src="/media/2019/tourunite2018/tu2017-5.jpg"
+  {{<img src="images/tu2017-5.jpg"
      caption="Грейдер может вот так идти сотню километров, не натыкаясь ни на какие населенные пункты">}}
-  {{<figure src="/media/2019/tourunite2018/tu2017-6.jpg"
+  {{<img src="images/tu2017-6.jpg"
      caption="Свет и туман настолько плотные и объёммные, что ещё чуть-чуть - и можно было б есть ложкой">}}
-  {{<figure src="/media/2019/tourunite2018/tu2017-7.jpg"
+  {{<img src="images/tu2017-7.jpg"
      caption="В Карелии всегда что-нибудь где-нибудь журчит. Всегда.">}}
-  {{<figure src="/media/2019/tourunite2018/tu2017-8.jpg"
+  {{<img src="images/tu2017-8.jpg"
      caption="Я может быть человек испорченный Подмосковьем, но до чего клёвый деревянный мост">}}
-  {{<figure src="/media/2019/tourunite2018/tu2017-9.jpg"
+  {{<img src="images/tu2017-9.jpg"
      caption="Будто другая планета, потрясающе">}}
 {{</gallery>}}
 
@@ -120,11 +120,11 @@ caption="Эй, тут же я на первом масс-старте в 2017 г
 \
 
 {{<gallery>}}
-  {{<figure src="/media/2019/tourunite2018/setup-tu2017.jpg"
+  {{<img src="images/setup-tu2017.jpg"
      caption="Было: мой сетап на Tour Unite 2017">}}
-  {{<figure src="/media/2019/tourunite2018/setup-early2018.jpg"
+  {{<img src="images/setup-early2018.jpg"
      caption="Так стало, когда я понял, что ездить со всем этим невозможно и облегчил билд на 6 (ш е с т ь) килограмм">}}
-  {{<figure src="/media/2019/tourunite2018/setup-tu2018.jpg"
+  {{<img src="images/setup-tu2018.jpg"
      caption="Более-менее всё то же самое, но спешно переброшенное на двухподвес">}}
 {{</gallery>}}
 <center>_Не то чтобы этапы большого пути, но между первой картинкой и всеми остальными я приложил немало усилий для оптимизации своего снаряжения._</center>
@@ -136,11 +136,11 @@ caption="Эй, тут же я на первом масс-старте в 2017 г
 
 ## День первый, 120 км
 {{<gallery>}}
-  {{<figure src="/media/2019/tourunite2018/strava-day1.jpg"
+  {{<img src="images/strava-day1.jpg"
      caption="Маршрут первого дня">}}
-  {{<figure src="/media/2019/tourunite2018/misha-1.jpg"
+  {{<img src="images/misha-1.jpg"
      caption="Миша на стартовой точке; определённо полон решимости">}}
-  {{<figure src="/media/2019/tourunite2018/cmr04.jpg"
+  {{<img src="images/cmr04.jpg"
      caption="Я не знаю, что это, но оно ассоциируется у меня только с японскими участками Colin McRae Rally '04">}}
 {{</gallery>}}
 <center>_Приличная фотография на старте получилась только с Мишей, так что с оставшимися членами команды "Велособаченька" я познакомлю вас позднее._</center>
@@ -152,9 +152,9 @@ caption="Эй, тут же я на первом масс-старте в 2017 г
 \
 
 {{<gallery>}}
-  {{<figure src="/media/2019/tourunite2018/don-pavel.jpg" caption="Павел">}}
-  {{<figure src="/media/2019/tourunite2018/don-misha.jpg" caption="Миша">}}
-  {{<figure src="/media/2019/tourunite2018/don-yuri.jpg" caption="Я">}}
+  {{<img src="images/don-pavel.jpg" caption="Павел">}}
+  {{<img src="images/don-misha.jpg" caption="Миша">}}
+  {{<img src="images/don-yuri.jpg" caption="Я">}}
 {{</gallery>}}
 <center>_Так лучше. Команда "Велособаченька": Павел, Миша, я._</center>
 
@@ -165,10 +165,10 @@ caption="Эй, тут же я на первом масс-старте в 2017 г
 Сто двадцать километров за первый день? Команда "Велособаченька" движется степенно, я бы не назвал это комфортным темпом, но --- не слишком выбиваясь из сил и находя время на осмотр окрестностей.
 
 {{<gallery>}}
-{{<figure src="/media/2019/tourunite2018/what-a-thrill.jpg" caption="What a thrill">}}
-{{<figure src="/media/2019/tourunite2018/vista-site-1.jpg"
+{{<img src="images/what-a-thrill.jpg" caption="What a thrill">}}
+{{<img src="images/vista-site-1.jpg"
    caption="Разумеется где-то на соседнем берегу запаркованы жигули с отвратительно громкой аудиосистемой, от этого никуда не убежать">}}
-{{<figure src="/media/2019/tourunite2018/tell-me-your-secrets-grass.jpg"
+{{<img src="images/tell-me-your-secrets-grass.jpg"
    caption="Tell me your secrets, grass">}}
 {{</gallery>}}
 <center>_На изображениях выше: команда "Велособаченька" осматривает окрестности._</center>
@@ -177,10 +177,10 @@ caption="Эй, тут же я на первом масс-старте в 2017 г
 
 ## День второй, 138 км
 {{<gallery>}}
-  {{<figure src="/media/2019/tourunite2018/strava-day2.jpg" caption="Маршрут второго дня">}}
-  {{<figure src="/media/2019/tourunite2018/endless-fields1.jpg"
+  {{<img src="images/strava-day2.jpg" caption="Маршрут второго дня">}}
+  {{<img src="images/endless-fields1.jpg"
      caption="Я видел поля, бескрайние поля">}}
-  {{<figure src="/media/2019/tourunite2018/don1.jpg"
+  {{<img src="images/don1.jpg"
      caption="Собственно, кроме них в тот день был ещё разве что Дон.">}}
 {{</gallery>}}
 
@@ -190,9 +190,9 @@ caption="Эй, тут же я на первом масс-старте в 2017 г
 
 ## День третий, 97 км
 {{<gallery>}}
-  {{<figure src="/media/2019/tourunite2018/strava-day3.jpg" caption="Маршрут третьего дня">}}
-  {{<figure src="/media/2019/tourunite2018/1000km.jpg" caption="Ну, уже больше четверти есть!">}}
-  {{<figure src="/media/2019/tourunite2018/day3-ark.jpg" caption="">}}
+  {{<img src="images/strava-day3.jpg" caption="Маршрут третьего дня">}}
+  {{<img src="images/1000km.jpg" caption="Ну, уже больше четверти есть!">}}
+  {{<img src="images/day3-ark.jpg" caption="">}}
 {{</gallery>}}
 
 \
