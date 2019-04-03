@@ -1,6 +1,5 @@
 {{ $original := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
-{{ $intermediate := $original.Fit "600x600 q100"}}
-{{ .Scratch.Set "image" ($intermediate.Fill "500x500 smart q95") }}
+{{ .Scratch.Set "image" ($original.Fill "600x600 smart q95") }}
 {{ $thumb := .Scratch.Get "image" }}
 
 
