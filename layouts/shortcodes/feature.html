@@ -1,0 +1,14 @@
+{{ $background := .Page.Resources.GetMatch (printf "*%s*" (.Get "background")) }}
+<section id="feature" style="background-image:url({{ $background.RelPermalink | absURL }})">
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+{{ with .Get "header" }}
+<div class="header">
+<center><h1 class="header">{{.}}</h1></center>
+{{ end }}
+{{ with .Get "subheader" }}
+<center><h2 class="subheader">{{.}}</h2></center>
+{{ end }}
+</div>
+</div>
+{{ .Inner }}
+</section>

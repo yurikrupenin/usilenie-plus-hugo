@@ -9,6 +9,7 @@ body {
   display: flex;
   flex-flow: column;
   height: 100vh;
+  overflow-x: hidden;
 }
 .container[role=main] {
   margin-bottom:50px;
