@@ -9,6 +9,13 @@
 {{ $preload := .Scratch.Get "img_preload" }}
 {{ $thumbnail := .Scratch.Get "img_thumbnail" }}
 
+<!-- workaround for faulty image resizes (happens sometimes): just use original image instead -->
+{{ if gt 2048 (len $thumbnail.Content) }}
+  {{ $warn_msg := printf "<!-- WARNING: thumbnail generation failed for file %s -->" (.Get "src") }}
+  {{ $warn_msg | safeHTML }}
+  {{ $thumbnail = $original }}
+{{ end }} 
+
 <!-- count how many times we've called this shortcode; load the css if it's the first time -->
 {{- if not ($.Page.Scratch.Get "figurecount") }}<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />{{ end }}
 {{- $.Page.Scratch.Add "figurecount" 1 -}}
