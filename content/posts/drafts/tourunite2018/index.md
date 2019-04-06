@@ -45,10 +45,10 @@ _Начало нового сезона и перезапуск сайта с н
      caption="Да, порванная на второй день покрышка; какое счастье, что у Ильи была с собой игла с нитью">}}
   {{<img src="images/tu2017-4"
      caption="Бесконечные, залитые светом пространства; это уже чуть южнее">}}
-  {{<img src="images/tu2017-5"
+  {{<img src="images/tu2017-5" crop="center"
      caption="Грейдер может вот так идти сотню километров, не натыкаясь ни на какие населенные пункты">}}
-  {{<img src="images/tu2017-6"
-     caption="Свет и туман настолько плотные и объёммные, что ещё чуть-чуть - и можно было б есть ложкой">}}
+  {{<img src="images/tu2017-6" crop="center"
+     caption="Свет и туман настолько плотные и объёмные, что ещё чуть-чуть - и можно было б есть ложкой">}}
   {{<img src="images/tu2017-7"
      caption="В Карелии всегда что-нибудь где-нибудь журчит. Всегда.">}}
   {{<img src="images/tu2017-8"
@@ -117,11 +117,11 @@ _Начало нового сезона и перезапуск сайта с н
 \
 
 {{<gallery>}}
-  {{<img src="images/setup-tu2017"
+  {{<img src="images/setup-tu2017" crop="center"
      caption="Было: мой сетап на Tour Unite 2017">}}
-  {{<img src="images/setup-early2018"
+  {{<img src="images/setup-early2018" crop="center"
      caption="Так стало, когда я понял, что ездить со всем этим невозможно и облегчил билд на 6 (ш е с т ь) килограмм">}}
-  {{<img src="images/setup-tu2018"
+  {{<img src="images/setup-tu2018" crop="center"
      caption="Более-менее всё то же самое, но спешно переброшенное на двухподвес">}}
 {{</gallery>}}
 <center>_Не то чтобы этапы большого пути, но между первой картинкой и всеми остальными я приложил немало усилий для оптимизации своего снаряжения._</center>
@@ -145,7 +145,7 @@ _Начало нового сезона и перезапуск сайта с н
 {{<gallery>}}
   {{<img src="images/misha-1"
      caption="Миша на стартовой точке; определённо полон решимости">}}
-  {{<img src="images/bike-is-clean"
+  {{<img src="images/bike-is-clean" crop="center"
      caption="Чистый велосипед: нечастое и не слишком долго поддерживающееся состояние">}}
   {{<img src="images/cmr04"
      caption="Я не знаю, что это, но оно ассоциируется у меня только с японскими участками Colin McRae Rally '04">}}
@@ -175,7 +175,7 @@ _Начало нового сезона и перезапуск сайта с н
 {{<img src="images/what-a-thrill" caption="What a thrill">}}
 {{<img src="images/vista-site-1"
    caption="Разумеется где-то на соседнем берегу запаркованы жигули с отвратительно громкой аудиосистемой, от этого никуда не убежать">}}
-{{<img src="images/tell-me-your-secrets-grass"
+{{<img src="images/tell-me-your-secrets-grass" crop="right"
    caption="Tell me your secrets, grass">}}
 {{</gallery>}}
 <center>_На изображениях выше: команда "Велособаченька" осматривает окрестности._</center>
@@ -186,7 +186,7 @@ _Начало нового сезона и перезапуск сайта с н
 
 {{<gallery>}}
   {{<img src="images/strava-day2" caption="Маршрут второго дня">}}
-  {{<img src="images/endless-fields1"
+  {{<img src="images/endless-fields1" crop="center"
      caption="Я видел поля, бескрайние поля">}}
   {{<img src="images/don1"
      caption="Собственно, кроме них в тот день был ещё разве что Дон.">}}
@@ -248,9 +248,9 @@ _Как вы абсолютно корректно понимаете, все х
      caption="Дон не слишком тихий; пока фотографировались - в лес с той же целью заехало наверное группы три на автомобилях">}}
   {{<img src="images/don-boat"
      caption="Надо обладать определенной выдержкой чтобы рыбачить в месте, где на пляже разве что не идёт рок-концерт" >}}
-  {{<img src="images/even-with-context"
+  {{<img src="images/even-with-context" crop="center"
      caption="Повышенной знойности фотосессия у пещеры; поверите ли, мы не преследовали этот эффект." >}}
-  {{<img src="images/80s-music-playing"
+  {{<img src="images/80s-music-playing" crop="center"
      caption="АБСОЛЮТНО ТОЧНО НЕ ПРЕСЛЕДОВАЛИ">}}
   {{<img src="images/eye-in-the-sky-1"
      caption="Вид с водонапорной башни">}}
