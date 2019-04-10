@@ -25,17 +25,6 @@
               </a>
 
               {{ partial "post_meta.html" . }}
-              <div class="post-entry">
-                {{ if .Truncated }}
-                {{ if .Params.summary }}
-                {{ .Params.summary }}
-                <a href="{{ .Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a>
-                {{ else }}
-                {{ end }}
-                {{ else }}
-                  {{ .Content }}
-                {{ end }}
-              </div>
 
               {{ if .Params.tags }}
                 <div class="blog-tags">
