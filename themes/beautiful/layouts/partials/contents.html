@@ -1,0 +1,8 @@
+{{ if .Params.toc }}
+<div id="post-toc" class="post-toc" style="position: fixed; top: 20px;">
+ <h2 class="post-toc-title">{{ .Title }}</h2>
+ <div class="post-toc-content always-active">
+  {{ .TableOfContents }}
+ </div>
+</div>
+{{ end }}
