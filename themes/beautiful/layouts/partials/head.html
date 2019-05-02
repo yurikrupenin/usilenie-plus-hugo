@@ -46,8 +46,8 @@
 {{- end -}}
 <!-- Social Media Tags -->
 {{- with .Params.share_img | default .Params.featured_image | default .Params.bigimg | default .Site.Params.logo }}
-  <meta property="og:image" content="{{ . | absURL }}" />
-  <meta name="twitter:image" content="{{ . | absURL }}" />
+  <meta property="og:image" content="{{ . }}" />
+  <meta name="twitter:image" content="{{ . }}" />
 {{- end }}
   <meta name="twitter:card" content="summary" />
 {{- with .Site.Author.twitter }}
