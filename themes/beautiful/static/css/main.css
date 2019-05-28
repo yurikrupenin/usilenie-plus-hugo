@@ -197,6 +197,16 @@ blockquote {
 blockquote p:first-child {
   margin-top: 0;
 }
+
+.spoiler {
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+  transition: filter 400ms, -webkit-filter 400ms;
+}
+.spoiler:hover, .spoiler:focus {
+	filter: blur(0px);
+}
+
 hr.small {
   max-width: 100px;
   margin: 15px auto;
