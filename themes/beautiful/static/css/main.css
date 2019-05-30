@@ -199,9 +199,9 @@ blockquote p:first-child {
 }
 
 .spoiler {
-  -webkit-filter: blur(3px);
-  filter: blur(3px);
-  transition: filter 400ms, -webkit-filter 400ms;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  transition: filter 800ms, -webkit-filter 800ms;
 }
 .spoiler:hover, .spoiler:focus {
 	filter: blur(0px);
