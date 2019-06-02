@@ -790,7 +790,9 @@ footer .theme-by {
   }
   .intro-header .categories-heading h1 {
     font-size: 32px;
+  }
 }
+
 @media only screen and (max-width: 320px) {
   .intro-header.big-img {
     height: 200px;
