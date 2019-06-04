@@ -23,12 +23,12 @@
 
 {{ if or $bigimg $title }}
   {{ if $bigimg }}
-    <div id="header-big-imgs" data-num-img={{len $bigimg}} 
+    <div id="header-big-imgs" data-num-img={{len $bigimg}}
       {{range $i, $img := $bigimg}}
-         {{ if (fileExists $img.src)}} 
-          data-img-src-{{add $i 1}}="{{$img.src | absURL }}" 
+         {{ if (fileExists $img.src)}}
+          data-img-src-{{add $i 1}}="{{$img.src | absURL }}"
          {{else}}
-          data-img-src-{{add $i 1}}="{{$img.src}}" 
+          data-img-src-{{add $i 1}}="{{$img.src}}"
          {{end}}
          {{ if $img.desc}}data-img-desc-{{add $i 1}}="{{$img.desc}}"{{end}}
       {{end}}></div>
@@ -51,7 +51,7 @@
                       <h2 class="{{ .Type }}-subheading">{{ $subtitle }}</h2>
                     {{ end }}
                   {{ end }}
-                  {{ if eq .Type "post" }}
+                  {{ if and  (eq .Type "post") (eq .Type "news") }}
                     {{ partial "post_meta.html" . }}
                   {{ end }}
               </div>
@@ -71,7 +71,7 @@
               {{ else }}
                 <h1>{{ with $title }}{{.}}{{ else }}<br/>{{ end }}</h1>
               {{ end }}
-              {{ if ne .Type "post" }}
+              {{ if and (ne .Type "post") (ne .Type "news") }}
                 <hr class="small">
               {{ end }}
               {{ if $subtitle }}
@@ -81,7 +81,7 @@
                   <h2 class="{{ .Type }}-subheading">{{ $subtitle }}</h2>
                 {{ end }}
               {{ end }}
-              {{ if eq .Type "post" }}
+              {{ if and (eq .Type "post") (eq .Type "news") }}
                 {{ partial "post_meta.html" . }}
               {{ end }}
             </div>
