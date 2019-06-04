@@ -2,17 +2,18 @@
 title: "Такахаси даёт всем потрогать свой Playdate"
 subtitle: Sugoi
 date: 2019-06-03T16:07:00+03:00
-draft: true
+draft: false
 author: Юрий Крупенин
 type: news
 url: "/2019/06/playdate-takahashi"
 categories:
   - Новости
 tags:
-  - Видеоигры
-  - Консоли
   - Такахаси
   - Playdate
+  - Консоли
+  - Видеоигры
+
 ---
 ШОК ВИДЕО Кэйта Такахаси даёт всем желающим покрутить ручку своей вызывающе жёлтой консоли Playdate, за кадром слышны восклицания "Ooooo sugoi!".
 
