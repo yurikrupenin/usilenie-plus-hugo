@@ -14,6 +14,10 @@
           </div>
         {{ end }}
 
+        {{ if eq .Type "news" }}
+        <h4 class="news-date"><i class="fas fa-calendar news-subtitle"></i>&nbsp;{{ .Date.Day }} {{ index $.Site.Data.rumonths (printf "%d" .Date.Month) }} {{ .Date.Year }}, {{ dateFormat "15:04 MST" .Date.Local }}</h4>
+        {{ end }}
+
         {{ if $.Param "socialShare" }}
             <hr/>
             <section id="social-share">
@@ -36,7 +40,7 @@
         {{ end }}
       </article>
 
-      {{ if ne .Type "page" }}
+      {{ if and (ne .Type "page") (ne .Type "news") }}
         <ul class="pager blog-pager">
           {{ if .PrevInSection }}
             <li class="previous">

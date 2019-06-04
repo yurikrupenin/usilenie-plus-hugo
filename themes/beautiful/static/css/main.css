@@ -507,9 +507,43 @@ footer .theme-by {
 
 /* --- News --- */
 .news-list {
-  padding: 20px 0;
-  border-bottom: 1px solid #eee;
 }
+
+.content-section {
+  color: #0080c8;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  border-bottom: 3px solid #0080c8;
+}
+
+.post-preview .news-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.post-preview .news-subtitle {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #848484;
+}
+
+.news-link {
+  color: #0080c8;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.news-date {
+  color: #c0c0c0;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 100;
+}
+
 
 /* --- Post preview --- */
 

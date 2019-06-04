@@ -9,12 +9,12 @@
         {{ end }}
 
         <div class="news-list">
+          <div class="col-12">
+            <h3 class="content-section">Пятиминутка ненависти</h3>
+          </div>
           <div class="row justify-content-start">
-            <div class="col-12">
-              <h3 class="mb-3">Последние новости</h3>
-            </div>
-
             {{ range first 3 (where .Data.Pages "Type" "news") }}
+
             <div class="col-12 col-md-4 mb-1">
               <article class="post-preview">
                 <a href="{{ .Permalink }}">
@@ -24,9 +24,17 @@
             </div>
             {{ end }}
           </div>
+            <a href="{{ .Site.BaseURL }}categories/новости/" class="news-link">Все новости &rarr;</a>
         </div>
 
+        <!-- В это сложно поверить, но я СОВЕРШЕННО не знаю HTML -->
+        <br>
+        <br>
+
         <div class="posts-list">
+          <div class="col-12">
+            <h3 class="content-section">Возмутительно длинные тексты</h3>
+          </div>
           {{ $pag := .Paginate (where .Data.Pages "Type" "post") }}
           {{ range $pag.Pages }}
             <article class="post-preview">
