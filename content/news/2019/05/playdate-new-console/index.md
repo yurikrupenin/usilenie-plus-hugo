@@ -6,6 +6,7 @@ draft: false
 author: Юрий Крупенин
 type: news
 url: "/2019/05/playdate-new-console"
+featured: "images/playdate-model-shot"
 categories:
   - Новости
 tags:

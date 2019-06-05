@@ -5,6 +5,7 @@ date: 2019-06-03T16:07:00+03:00
 draft: false
 author: Юрий Крупенин
 type: news
+featured: "images/sugoi"
 url: "/2019/06/playdate-takahashi"
 categories:
   - Новости

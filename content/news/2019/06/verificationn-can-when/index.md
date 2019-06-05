@@ -6,6 +6,7 @@ draft: false
 author: Юрий Крупенин
 type: news
 url: "/2019/06/verification-can-when"
+featured: "images/lynx"
 categories:
   - Новости
 tags:

@@ -5,6 +5,7 @@ date: 2019-06-04T16:37:00+03:00
 draft: false
 author: Юрий Крупенин
 type: news
+featured: "images/pathetic"
 url: "/2019/06/what-nintendont"
 categories:
   - Новости
