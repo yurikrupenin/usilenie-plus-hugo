@@ -45,9 +45,15 @@
   <link href='{{ . | absURL }}' rel='icon' type='image/x-icon'/>
 {{- end -}}
 <!-- Social Media Tags -->
-{{- with .Params.share_img | default .Params.featured_image | default .Params.bigimg | default .Site.Params.logo }}
-  <meta property="og:image" content="{{ . | absURL }}" />
-  <meta name="twitter:image" content="{{ . | absURL }}" />
+{{- if .Params.featured }}
+  {{ $img := .Page.Resources.GetMatch (printf "*%s*" (.Params.featured)) }}
+  <meta property="og:image" content="{{ $img.Permalink }}" />
+  <meta name="twitter:image" content="{{ $img.Permalink }}" />
+{{- else }}
+  {{- with .Params.share_img | default .Params.featured_image | default .Params.bigimg | default .Site.Params.logo }}
+    <meta property="og:image" content="{{ . | absURL }}" />
+    <meta name="twitter:image" content="{{ . | absURL }}" />
+  {{- end }}
 {{- end }}
   <meta name="twitter:card" content="summary" />
 {{- with .Site.Author.twitter }}
