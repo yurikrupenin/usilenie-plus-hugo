@@ -922,16 +922,18 @@ table tr:nth-child(2n) {
 }
 table tr th {
   font-weight: bold;
+  font-size: 14px;
   border: 1px solid #cccccc;
   text-align: left;
   margin: 0;
-  padding: 6px 13px;
+  padding: 3px 8px;
 }
 table tr td {
   border: 1px solid #cccccc;
+  font-size: 14px;
   text-align: left;
   margin: 0;
-  padding: 6px 13px;
+  padding: 3px 8px;
 }
 table tr th :first-child,
 table tr td :first-child {
