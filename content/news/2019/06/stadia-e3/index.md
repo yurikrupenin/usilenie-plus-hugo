@@ -30,3 +30,6 @@ tags:
 * Ghost Recon Breakpoint: We Are Wolves, трейлер https://www.youtube.com/watch?v=NREo4k3MHow
 
 * Stadia Pro: $9.99 в месяц, 4K HDR
+
+* Stadia Founders: заплатите ещё больше, и получите в наказание этот геймпад.
+{{<img src="images/stadia-founders">}}
