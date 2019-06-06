@@ -22,3 +22,7 @@ tags:
 Кратко о уже произошедшем: 
 
 * Наконец анонсирован Baldur's Gate III, тизер: https://www.youtube.com/watch?v=OcP0WdH7rTs
+
+* Обещают 720p@60 на десяти мегабитах
+
+{{<img src="images/stadia-reqs">}}
