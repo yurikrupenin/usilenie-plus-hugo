@@ -21,7 +21,7 @@ tags:
 
 Кратко о уже произошедшем: 
 
-* Наконец анонсирован Baldur's Gate III, тизер: https://www.youtube.com/watch?v=OcP0WdH7rTs
+* Наконец _официально_ анонсирован Baldur's Gate III, [тизер][baldurs-teaser]: 
 
 * Обещают 720p@60 на десяти мегабитах
 
@@ -29,13 +29,15 @@ tags:
 
 \
 
+
 * Как мы уже знаем, родной геймпад сложно назвать симпатичным (он сделан не для вас, всё хорошо, вы можете вместо него подключить практически какой угодно).
 
 {{<img src="images/stadia-gamepad">}}
 
 \
 
-* Ghost Recon Breakpoint: We Are Wolves, трейлер https://www.youtube.com/watch?v=NREo4k3MHow
+
+* Ghost Recon Breakpoint: We Are Wolves, [трейлер][wolves-trailer]
 
 * Stadia Pro: $9.99 в месяц, 4K HDR
 
@@ -51,3 +53,6 @@ tags:
 Это официально: Google упустила возможность вывести на сцену Тодда и анонсировать Skyrim-as-a-Service. Как можно было допустить.
 
 Что ж, пора перейти к следующим стадиям шитпостинга.
+
+[baldurs-teaser]: https://www.youtube.com/watch?v=OcP0WdH7rTs
+[wolves-trailer]: https://www.youtube.com/watch?v=NREo4k3MHow
