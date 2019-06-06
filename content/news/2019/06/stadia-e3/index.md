@@ -27,6 +27,14 @@ tags:
 
 {{<img src="images/stadia-reqs">}}
 
+\
+
+* Как мы уже знаем, родной геймпад сложно назвать симпатичным (он сделан не для вас, всё хорошо, вы можете вместо него подключить практически какой угодно).
+
+{{<img src="images/stadia-gamepad">}}
+
+\
+
 * Ghost Recon Breakpoint: We Are Wolves, трейлер https://www.youtube.com/watch?v=NREo4k3MHow
 
 * Stadia Pro: $9.99 в месяц, 4K HDR
