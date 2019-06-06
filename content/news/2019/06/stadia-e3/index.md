@@ -21,7 +21,7 @@ tags:
 
 Кратко о произошедшем: 
 
-* Наконец _официально_ анонсирован Baldur's Gate III, [тизер][baldurs-teaser]: 
+* Наконец _официально_ анонсирован Baldur's Gate III, [тизер][baldurs-teaser].
 
 * Обещают 720p@60 на десяти мегабитах
 
@@ -37,12 +37,15 @@ tags:
 \
 
 
-* Ghost Recon Breakpoint: We Are Wolves, [трейлер][wolves-trailer]
+* Ghost Recon Breakpoint: We Are Wolves, [трейлер][wolves-trailer].
 
-* Stadia Pro: $9.99 в месяц, 4K HDR
+* Stadia Pro: $9.99 в месяц, 4K HDR.
 
 * Stadia Founder's Edition: заплатите 130 долларов, и получите в наказание этот геймпад.
 {{<img src="images/stadia-founders">}}
+
+\
+
 
 * Запускается в ноябре в 14 странах; искать среди них Россию, конечно, не следует.
 
