@@ -26,3 +26,5 @@ tags:
 * Обещают 720p@60 на десяти мегабитах
 
 {{<img src="images/stadia-reqs">}}
+
+* Ghost Recon Breakpoint: We Are Wolves, трейлер https://www.youtube.com/watch?v=NREo4k3MHow
