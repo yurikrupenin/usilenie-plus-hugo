@@ -1,7 +1,7 @@
 ---
 title: "Душа старой машины"
 date: 2019-07-07T18:50:00+03:00
-draft: true
+draft: false
 comments: true
 author: Юрий Крупенин
 type: post
