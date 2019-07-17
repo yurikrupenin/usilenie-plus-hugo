@@ -1,0 +1,68 @@
+<!-- Виджет карты в поп-апе -->
+
+{{ $baseURL := .Site.BaseURL }}
+{{- $mapid := .Get "id" }}
+{{- $mapanchor := .Get "anchor" }}
+{{- $text := .Get "caption" }}
+
+<!-- Сколько раз мы уже использовали карту? Если ещё не использовали, то эмбеднем цсс и определим, как она выглядит -->
+{{- if not ($.Page.Scratch.Get "mapcount") }}
+
+	<link rel="stylesheet" href="/maps/{{ $mapid }}/leaflet.css"/>
+	<link rel="stylesheet" href="/maps/{{ $mapid }}/leaflet-elevation.min.css" />
+	<link rel="stylesheet" href="/maps/{{ $mapid }}/markercluster.css" />
+	<link rel="stylesheet" href="/maps/{{ $mapid }}/markercluster.default.css" />
+	<link rel="stylesheet" href="/maps/{{ $mapid }}/leaflet.photo.css" />
+	<link rel="stylesheet" href="/maps/{{ $mapid }}/leaflet.easy-button.css" />
+	
+	<script src="/maps/{{ $mapid }}/d3.min.js" charset="utf-8"></script>
+	<script src="/maps/{{ $mapid }}/leaflet.js"></script>
+	<script src="/maps/{{ $mapid }}/leaflet-elevation.min.js"></script>
+	<script src="/maps/{{ $mapid }}/leaflet.markercluster.js"></script>
+	<script src="/maps/{{ $mapid }}/leaflet.photo.js"></script>
+	<script src="/maps/{{ $mapid }}/leaflet.easy-button.js"></script>
+	
+	<link rel="stylesheet" href="/maps/{{ $mapid }}/style.css" />
+	<link rel="stylesheet" href="/css/popup.css" />
+	<script src="/maps/{{ $mapid }}/data.js"></script>
+	<script src="/maps/{{ $mapid }}/script.js"></script>
+
+	<script>
+		function show_day_on_popup(id) {
+			show_back();
+			showDay(id);
+		}
+		
+		function show_back() {
+			document.getElementsByClassName('popupBackground')[0].style.display = 'block';
+			global_map.invalidateSize();
+		}
+		
+		function hide_back() {
+			document.getElementsByClassName('popupBackground')[0].style.display = 'none';
+		}
+		
+		document.addEventListener("DOMContentLoaded", function() {
+			//document.getElementsByClassName('popupTrigger')[0].onclick = show_back;
+			document.getElementsByClassName('popupCloseButton')[0].onclick = hide_back;
+		});
+	</script>
+
+	<div class="popupBackground">
+		<span class="helper"></span>
+		<div>
+			<p id="currentDayName"></p>
+			<div class="popupCloseButton">X</div>
+			<div class="mapcontainer">
+				<div class="content" id="map"></div>
+				<div id="elevation-div"></div>
+			</div>
+		</div>
+	</div>
+{{ end }}
+
+{{- $.Page.Scratch.Add "mapcount" 1 }}
+
+<a onclick="show_day_on_popup('{{ $mapanchor }}');" href="javascript:void(0);">{{ $text }}</a>
+
+
