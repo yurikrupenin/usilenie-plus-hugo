@@ -10,7 +10,7 @@
     width:100%;
     z-index:10000;
 }
-.popupBackground .helper{
+.popupBackground .mapnik-helper{
     display:inline-block;
     height:100%;
     vertical-align:middle;
