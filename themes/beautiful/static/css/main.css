@@ -1048,3 +1048,11 @@ h4.see-also {
  ul.share li:hover .fab {
   transform: scale(1.4)
 }
+
+.maplink {
+  color: #07ca07;
+}
+.maplink:hover,
+.maplink:focus {
+  color: #079a07;
+}
