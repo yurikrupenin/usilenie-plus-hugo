@@ -1,8 +1,8 @@
 ---
 title: "Tour Unite 2018"
 subtitle: Команда "Собаченька" путешествует
-date: 2019-07-23T16:00:00+03:00
-draft: true
+date: 2019-07-24T13:27:00+03:00
+draft: false
 author: Юрий Крупенин
 type: post
 url: "/2019/tourunite2018/"
