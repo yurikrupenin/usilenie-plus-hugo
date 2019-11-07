@@ -26,6 +26,7 @@ tags:
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/709301053&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
 \
+[RSS-линк](http://feeds.soundcloud.com/users/soundcloud:users:23433294/sounds.rss)
 
 Пилотный выпуск _относительно короткий_ (я искренне считаю тридцать минут совсем уже скотски длинным форматом, но не могу не видеть, что многие подкасты выходят за два часа), но,в любом случае, вот разбивка на обе основные темы:
 
