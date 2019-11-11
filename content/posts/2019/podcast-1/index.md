@@ -27,7 +27,9 @@ tags:
 
 \
 
-[RSS-линк](http://feeds.soundcloud.com/users/soundcloud:users:23433294/sounds.rss)
+Альтернативные линки:
+* [Spotify](https://open.spotify.com/episode/3XrAlvTtpoH2kfTKXoiVuI)
+* [RSS](http://feeds.soundcloud.com/users/soundcloud:users:23433294/sounds.rss)
 
 \
 
