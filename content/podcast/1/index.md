@@ -6,8 +6,8 @@ draft: false
 comments: true
 author: Юрий Крупенин
 type: news
-url: "/podcast/1/"
-aliases: ["/2019/podcast-1"]
+url: "/2019/podcast-1/"
+aliases: ["/podcast/1/"]
 categories:
   - Подкаст
 tags:
