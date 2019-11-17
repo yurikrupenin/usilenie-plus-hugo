@@ -5,8 +5,9 @@ date: 2019-11-07T20:30:00+03:00
 draft: false
 comments: true
 author: Юрий Крупенин
-type: post
-url: "/2019/podcast-1/"
+type: news
+url: "/podcast/1/"
+aliases: ["/2019/podcast-1"]
 categories:
   - Подкаст
 tags:
@@ -29,8 +30,13 @@ tags:
 
 Альтернативные линки:
 
-* [Spotify](https://open.spotify.com/episode/3XrAlvTtpoH2kfTKXoiVuI) \
-* [RSS](http://feeds.soundcloud.com/users/soundcloud:users:23433294/sounds.rss) \
+* [Google Podcasts](https://podcasts.google.com/?feed=aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjM0MzMyOTQvc291bmRzLnJzcw) \
+* [Apple Podcasts](https://podcasts.apple.com/ru/podcast/%D1%83%D1%81%D0%B8%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82/id1487512789)
+* [Spotify](https://open.spotify.com/show/4dQbxnwJjsz4z9UdCVJR6H) \
+* [Overcast](https://overcast.fm/itunes1487512789)
+* [RSS](https://anchor.fm/s/1079e220/podcast/rss) \
+\
+* [<b>Чуть обособленно: патреон</b>](https://patreon.com/yurikrupenin)
 
 \
 
