@@ -54,7 +54,7 @@ tags:
 * [Джон Кармак о Стиве Джобсе](https://www.facebook.com/permalink.php?story_fbid=2146412825593223&id=100006735798590)
 * [Doom 3 на MacWorld 2001](https://www.youtube.com/watch?v=Qj3dPyk7hPI)
 * [Masters of Doom](https://www.goodreads.com/book/show/222146.Masters_of_Doom?from_search=true&qid=042bwe6jlN&rank=1)
-* [Superintellignece](https://www.goodreads.com/book/show/20527133-superintelligence?from_search=true&qid=uVxadsmkDj&rank=1)
+* [Superintelligence](https://www.goodreads.com/book/show/20527133-superintelligence?from_search=true&qid=uVxadsmkDj&rank=1)
 * [Василиск Роко](https://wiki.lesswrong.com/wiki/Roko%27s_basilisk)
 * [Новый Уоттс](https://www.goodreads.com/book/show/45729865-peter-watts-is-an-angry-sentient-tumor?ac=1&from_search=true&qid=6YMaX8zpHj&rank=1)
 * [Project Orion](https://bethesda.net/game/orion)
