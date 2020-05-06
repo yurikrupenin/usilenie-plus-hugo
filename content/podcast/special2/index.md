@@ -31,7 +31,7 @@ tags:
 \
 
 
-Также здесь [здесь](https://photos.app.goo.gl/Dfk3Fs22813a2Xvr6) есть ещё *красивенькие*. А [тут](https://photos.app.goo.gl/UcwXdAB6J99pwzPu9) и [тут](https://photos.app.goo.gl/PvQyXTtmpfHcs5G37) вообще большой фотосклад необработанной дичи со всего путешествия, энджой.
+Также [здесь](https://photos.app.goo.gl/Dfk3Fs22813a2Xvr6) есть ещё *красивенькие*. А [тут](https://photos.app.goo.gl/UcwXdAB6J99pwzPu9) и [тут](https://photos.app.goo.gl/PvQyXTtmpfHcs5G37) вообще большой фотосклад необработанной дичи со всего путешествия, энджой.
 
 
 \
