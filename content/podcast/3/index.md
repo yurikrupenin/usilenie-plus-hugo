@@ -5,7 +5,7 @@ date: 2019-11-27T17:00:00+03:00
 draft: false
 comments: true
 author: Юрий Крупенин
-type: news
+type: podcast
 url: "/podcast/3/"
 categories:
   - Подкаст

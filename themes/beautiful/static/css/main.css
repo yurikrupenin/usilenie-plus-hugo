@@ -505,8 +505,8 @@ footer .theme-by {
 }
 
 
-/* --- News --- */
-.news-list {
+/* --- Podcast --- */
+.podcast-list {
 }
 
 .content-section {
@@ -517,27 +517,27 @@ footer .theme-by {
   border-bottom: 3px solid #0080c8;
 }
 
-.post-preview .news-title {
+.post-preview .podcast-title {
   font-size: 22px;
   font-weight: 600;
   margin-top: 0;
 }
 
-.post-preview .news-subtitle {
+.post-preview .podcast-subtitle {
   margin: 0;
   font-size: 16px;
   font-weight: 400;
   color: #848484;
 }
 
-.news-link {
+.podcast-link {
   color: #0080c8;
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
 }
 
-.news-date {
+.podcast-date {
   color: #c0c0c0;
   font-size: 14px;
   font-style: italic;
@@ -585,7 +585,7 @@ footer .theme-by {
 }
 .post-preview .post-meta,
 .post-heading .post-meta,
-.news-heading .news-meta {
+.podcast-heading .podcast-meta {
   color: #808080;
   font-size: 18px;
   font-style: italic;
@@ -593,7 +593,7 @@ footer .theme-by {
 }
 .post-preview .post-meta a,
 .post-heading .post-meta a,
-.news-heading .news-meta a {
+.podcast-heading .podcast-meta a {
   color: #404040;
   text-decoration: none;
 }
@@ -724,7 +724,7 @@ footer .theme-by {
 }
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading,
-.intro-header.big-img .news-heading {
+.intro-header.big-img .podcast-heading {
   padding: 100px 0;
   color: #FFF;
   text-shadow: 1px 1px 3px #000;
@@ -735,13 +735,13 @@ footer .theme-by {
   font-size: 50px;
 }
 .intro-header .post-heading h1,
-.intro-header .news-heading h1 {
+.intro-header .podcast-heading h1 {
   margin-top: 0;
   font-size: 35px;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading,
-.intro-header .news-heading .news-subheading {
+.intro-header .podcast-heading .podcast-subheading {
   font-size: 22px;
   line-height: 1.4;
   display: block;
@@ -750,12 +750,12 @@ footer .theme-by {
   margin: 10px 0 0;
 }
 .intro-header .post-heading .post-subheading,
-.intro-header .news-heading .news-subheading {
+.intro-header .podcast-heading .podcast-subheading {
   margin-bottom: 20px;
 }
 .intro-header.big-img .page-heading .page-subheading,
 .intro-header.big-img .post-heading .post-subheading,
-.intro-header.big-img .news-heading .news-subheading {
+.intro-header.big-img .podcast-heading .podcast-subheading {
   font-weight: 400;
 }
 .intro-header.big-img .page-heading hr {
@@ -764,7 +764,7 @@ footer .theme-by {
   -moz-box-shadow: 1px 1px 3px #000;
 }
 .intro-header.big-img .post-heading .post-meta,
-.intro-header.big-img .news-heading .news-meta {
+.intro-header.big-img .podcast-heading .podcast-meta {
   color: #EEE;
 }
 .intro-header.big-img .img-desc {
@@ -787,7 +787,7 @@ footer .theme-by {
   }
   .intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading,
-  .intro-header.big-img .news-heading  {
+  .intro-header.big-img .podcast-heading  {
     padding: 150px 0;
   }
   .intro-header .page-heading h1,
@@ -795,7 +795,7 @@ footer .theme-by {
     font-size: 40px;
   }
   .intro-header .post-heading h1,
-  .intro-header .news-heading h1 {
+  .intro-header .podcast-heading h1 {
     font-size: 50px;
   }
   .intro-header .categories-heading h1 {
@@ -827,7 +827,7 @@ footer .theme-by {
   }
   .intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading,
-  .intro-header.big-img .news-heading {
+  .intro-header.big-img .podcast-heading {
     display: none;
   }
   .header-section.has-img .big-img {
@@ -838,7 +838,7 @@ footer .theme-by {
     font-size: 32px;
   }
   .intro-header .post-heading h1,
-  .intro-header .news-heading h1 {
+  .intro-header .podcast-heading h1 {
     font-size: 28px;
   }
   .intro-header .categories-heading h1 {

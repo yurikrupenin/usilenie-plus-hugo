@@ -51,7 +51,7 @@
                       <h2 class="{{ .Type }}-subheading">{{ $subtitle }}</h2>
                     {{ end }}
                   {{ end }}
-                  {{ if and  (eq .Type "post") (eq .Type "news") }}
+                  {{ if and  (eq .Type "post") (eq .Type "podcast") }}
                     {{ partial "post_meta.html" . }}
                   {{ end }}
               </div>
@@ -71,7 +71,7 @@
               {{ else }}
                 <h1>{{ with $title }}{{.}}{{ else }}<br/>{{ end }}</h1>
               {{ end }}
-              {{ if and (ne .Type "post") (ne .Type "news") }}
+              {{ if and (ne .Type "post") (ne .Type "podcast") }}
                 <hr class="small">
               {{ end }}
               {{ if $subtitle }}
@@ -81,7 +81,7 @@
                   <h2 class="{{ .Type }}-subheading">{{ $subtitle }}</h2>
                 {{ end }}
               {{ end }}
-              {{ if and (eq .Type "post") (eq .Type "news") }}
+              {{ if and (eq .Type "post") (eq .Type "podcast") }}
                 {{ partial "post_meta.html" . }}
               {{ end }}
             </div>

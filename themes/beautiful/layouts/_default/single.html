@@ -14,8 +14,8 @@
           </div>
         {{ end }}
 
-        {{ if eq .Type "news" }}
-        <h4 class="news-date"><i class="fas fa-calendar news-subtitle"></i>&nbsp;{{ .Date.Day }} {{ index $.Site.Data.rumonths (printf "%d" .Date.Month) }} {{ .Date.Year }}, {{ dateFormat "15:04 MST" .Date.Local }}</h4>
+        {{ if eq .Type "podcast" }}
+        <h4 class="podcast-date"><i class="fas fa-calendar podcast-subtitle"></i>&nbsp;{{ .Date.Day }} {{ index $.Site.Data.rumonths (printf "%d" .Date.Month) }} {{ .Date.Year }}, {{ dateFormat "15:04 MST" .Date.Local }}</h4>
         {{ end }}
 
         {{ if $.Param "socialShare" }}
@@ -40,7 +40,7 @@
         {{ end }}
       </article>
 
-      {{ if and (ne .Type "page") (ne .Type "news") }}
+      {{ if and (ne .Type "page") (ne .Type "podcast") }}
         <ul class="pager blog-pager">
           {{ if .PrevInSection }}
             <li class="previous">

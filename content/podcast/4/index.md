@@ -6,7 +6,7 @@ draft: false
 comments: true
 author: Юрий Крупенин
 featured: "images/gotodick"
-type: news
+type: podcast
 url: "/podcast/4"
 categories:
   - Подкаст

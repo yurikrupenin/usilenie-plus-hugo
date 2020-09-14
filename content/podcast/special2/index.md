@@ -6,7 +6,7 @@ draft: false
 comments: true
 author: Юрий Крупенин
 featured: "images/slide1"
-type: news
+type: podcast
 url: "/podcast/special2"
 categories:
   - Подкаст

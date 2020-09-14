@@ -1,3 +1,0 @@
-<h3 class="news-title">{{ .Title }}</h3>
-<h4 class="news-subtitle">{{ .Params.subtitle }}</h4>
-<h4 class="news-date"><i class="fas fa-calendar news-subtitle"></i>&nbsp;{{ .Date.Day }} {{ index $.Site.Data.rumonths (printf "%d" .Date.Month) }} {{ .Date.Year }}, {{ dateFormat "15:04 MST" .Date.Local }}</h4>

@@ -8,23 +8,23 @@
           </div>
         {{ end }}
 
-        <div class="news-list">
+        <div class="podcast-list">
           <div class="col-12">
-            <h3 class="content-section">Пятиминутка ненависти</h3>
+            <h3 class="content-section">Усиление+ подкаст</h3>
           </div>
           <div class="row justify-content-start">
-            {{ range first 3 (where .Site.RegularPages "Type" "news") }}
+            {{ range first 3 (where .Site.RegularPages "Type" "podcast") }}
 
             <div class="col-12 col-md-4 mb-1">
               <article class="post-preview">
                 <a href="{{ .Permalink }}">
-                  {{ partial "news_meta.html" . }}
+                  {{ partial "podcast_meta.html" . }}
                 </a>
               </article>
             </div>
             {{ end }}
           </div>
-            <a href="{{ .Site.BaseURL }}categories/новости/" class="news-link">Все новости &rarr;</a>
+            <a href="{{ .Site.BaseURL }}categories/подкаст/" class="podcast-link">Все выпуски &rarr;</a>
         </div>
 
         <!-- В это сложно поверить, но я СОВЕРШЕННО не знаю HTML -->
@@ -33,7 +33,7 @@
 
         <div class="posts-list">
           <div class="col-12">
-            <h3 class="content-section">Возмутительно длинные тексты</h3>
+            <h3 class="content-section">Как подкаст только буквы</h3>
           </div>
           {{ $pag := .Paginate (where .Site.RegularPages "Type" "post") }}
           {{ range $pag.Pages }}
