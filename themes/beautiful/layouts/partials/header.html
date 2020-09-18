@@ -45,7 +45,6 @@
                 <h1>{{ with $.Scratch.Get "title" }}{{.}}{{ else }}<br/>{{ end }}</h1>
                   {{ if $subtitle }}
                     {{ if eq .Type "page" }}
-                      <hr class="small">
                       <span class="{{ .Type }}-subheading">{{ $subtitle }}</span>
                     {{ else }}
                       <h2 class="{{ .Type }}-subheading">{{ $subtitle }}</h2>
