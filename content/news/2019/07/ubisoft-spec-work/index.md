@@ -32,11 +32,13 @@ tags:
 
 \
 
-Майк Бителл чуть подкалывает.
+Майк Бителл чуть подкалывает (note: позже удалил твит, чем сломал мне процесс ребилда сайта, который начал падать с ошибкой oEmbed; спасибо, технологии)
 
 \
 
-{{<twitter 1150109159288901633>}}
+>Joseph is in a unionised profession, which is why I can’t ask him to work for free, and pay him if I like what he does more than the other 100 actors I ask to work for free and win a job. https://t.co/Ef0Y83rlgG
+
+> — Mike Bithell (@mikeBithell) July 13, 2019
 
 Вы можете сами разобраться со своим отношением к явлению, наше дело -- показать существование не слишком распространенной в русскоязычном околоигровом интернете, [судя][6] [по][7] [обсуждениям][8], точки зрения.
 
