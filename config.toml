@@ -5,7 +5,7 @@ title = "Некстджен и Усиление+"
 theme = "beautiful"
 disqusShortname = "nekstdzhen-i-usilenie"
 googleAnalytics = "UA-22075196-6"
-enableMissingTranslationPlaceholders = true
+enableMissingTranslationPlaceholders = false
 timeout = 3600000
 
 [markup]
@@ -16,16 +16,13 @@ angledQuotes = true
 hrefTargetBlank = true
 
 [Params]
- subtitle = "Как ваше любимое пародийное издание, только на полном серьёзе"
+ subtitle = "Больно читать? В этом вся задумка."
  logo = "img/logo.png"
  favicon = "img/favicon.png"
  rss = true
  comments = true
  showRelatedPosts = true
  featuredImagesOnFrontpage = false
-
-[[Params.bigimg]]
- src = "/media/design/header-bigimg.jpg"
 
 [Author]
  name = "Юрий Крупенин"

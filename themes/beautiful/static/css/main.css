@@ -1,15 +1,15 @@
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 18px;
-  color: #404040;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  color: #202020;
   position: relative;
-  background: #FFF;
+  background: #f8f8f8;
   display: flex;
   flex-flow: column;
-  height: 100vh;
   overflow-x: hidden;
+  min-height: 100vh;
 }
 .container[role=main] {
   margin-bottom:50px;
@@ -80,7 +80,7 @@ body {
   font-size: 20px;
   line-height: 1.4;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
   margin: 10px 0 0;
 }
@@ -121,7 +121,7 @@ body {
  margin-left:785px;
  margin-top: 100px;
  padding:10px;
- font-family:Athelas,STHeiti,Microsoft Yahei,serif;
+ font-family: 'IBM Plex Mono', monospace;
  word-wrap:break-word;
  -webkit-box-sizing:border-box;
  box-sizing:border-box
@@ -170,25 +170,25 @@ p + p {
 }
 p a {
   /* text-decoration: underline */
-  color: #008AFF;
+  color: #ff1818;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: 800;
 }
 .image-caption {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   font-style: italic;
   font-weight: 400;
   font-size: 14px;
 }
-}
+
 a {
-  color: #008AFF;
+  color: #ff4800;
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #ff1818;
 }
 blockquote {
   color: #808080;
@@ -229,7 +229,7 @@ mark {
 }
 
 .main-explain-area {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   padding: 15px inherit;
 }
 
@@ -238,7 +238,7 @@ mark {
 }
 
 div.panel-body a.list-group-item {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: 800;
   border-radius: 0;
   border: none;
@@ -301,9 +301,9 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #FEFCFC;
+  background: #e7e7e7;
   border-bottom: 1px solid #EAEAEA;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .navbar-custom .nav li a {
@@ -329,7 +329,7 @@ img {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #0085a1;
+  color: #ff1818;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -468,7 +468,7 @@ img {
 
 footer {
   padding: 10px 0;
-  background: #FEFCFC;
+  background: #d1d1d1;
   border-top: 1px #EAEAEA solid;
   margin-top: auto;
   font-size: 12px;
@@ -483,7 +483,7 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   text-align: center;
   margin-bottom: 0;
 }
@@ -510,51 +510,50 @@ footer .theme-by {
 }
 
 .content-section {
-  color: #0080c8;
+  color: #5e9955;
   font-size: 18px;
   font-style: italic;
   font-weight: 600;
-  border-bottom: 3px solid #0080c8;
 }
 
 .post-preview .podcast-title {
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
   margin-top: 0;
 }
 
 .post-preview .podcast-subtitle {
   margin: 0;
   font-size: 16px;
-  font-weight: 400;
+  font-style: italic;
+  font-weight: 300;
   color: #848484;
 }
 
 .podcast-link {
-  color: #0080c8;
+  color: #5e9955;
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
 }
 
 .podcast-date {
-  color: #c0c0c0;
+  color: #5e9955;
   font-size: 14px;
   font-style: italic;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 
 /* --- Post preview --- */
 
 .post-preview {
-  padding: 20px 0;
-  border-bottom: 1px solid #eee;
+  padding: 15px 0;
 }
 
 @media only screen and (min-width: 768px) {
   .post-preview {
-    padding: 35px 0;
+    padding: 15px 0;
   }
 }
 
@@ -570,35 +569,38 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #0085a1;
+  color: #ff4848;
 }
 
 .post-preview .post-title {
-  font-size: 28px;
+  font-size: 20px;
+  font-weight: 500;
   margin-top: 0;
 }
 .post-preview .post-subtitle {
   margin: 0;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
   margin-bottom: 10px;
 }
 .post-preview .post-meta,
 .post-heading .post-meta,
 .podcast-heading .podcast-meta {
-  color: #808080;
+  color: #5e9955;
   font-size: 18px;
+  font-weight: 200;
   font-style: italic;
   margin: 0 0 10px;
 }
 .post-preview .post-meta a,
 .post-heading .post-meta a,
 .podcast-heading .podcast-meta a {
-  color: #404040;
+  color: #5e9955;
   text-decoration: none;
 }
 .post-preview .post-entry {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
 }
 .post-entry-container {
   display: inline-block;
@@ -630,24 +632,24 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
-    font-size: 28px;
+    font-size: 20px;
   }
   .post-preview .post-subtitle {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 /* --- Tags --- */
 
 .blog-tags {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #999;
+  font-family: 'IBM Plex Mono', monospace;
+  color: rgb(255, 206, 206);
   font-size: 12px;
   margin-bottom: 30px;
 }
 
 .blog-tags a {
-  color: #008AFF;
+  color: #ff4848;
   text-decoration: none;
   padding: 0px 5px;
 }
@@ -658,8 +660,8 @@ footer .theme-by {
 
 .blog-tags a:hover {
   border-radius: 2px;
-  color: #008AFF;
-  background-color: #CCC;
+  color: #ff4848;
+  background-color:rgb(255, 206, 206);
 }
 
 .post-preview .blog-tags {
@@ -732,12 +734,12 @@ footer .theme-by {
 .intro-header .page-heading h1,
 .intro-header .tags-heading h1 {
   margin-top: 0;
-  font-size: 50px;
+  font-size: 28px;
 }
 .intro-header .post-heading h1,
 .intro-header .podcast-heading h1 {
   margin-top: 0;
-  font-size: 35px;
+  font-size: 28px;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading,
@@ -745,7 +747,8 @@ footer .theme-by {
   font-size: 22px;
   line-height: 1.4;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: italic;
   font-weight: 400;
   margin: 10px 0 0;
 }
@@ -773,7 +776,7 @@ footer .theme-by {
   padding: 5px 10px;
   font-size: 11px;
   color: #EEE;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   right: 0;
   bottom: 0;
   display: none;
@@ -792,14 +795,14 @@ footer .theme-by {
   }
   .intro-header .page-heading h1,
   .intro-header .tags-heading h1 {
-    font-size: 40px;
+    font-size: 28px;
   }
   .intro-header .post-heading h1,
   .intro-header .podcast-heading h1 {
-    font-size: 50px;
+    font-size: 28px;
   }
   .intro-header .categories-heading h1 {
-    font-size: 40px;
+    font-size: 28px;
   }
   .intro-header.big-img .img-desc {
     font-size: 14px;
@@ -835,14 +838,14 @@ footer .theme-by {
   }
   .intro-header .page-heading h1,
   .intro-header .tags-heading h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
   .intro-header .post-heading h1,
   .intro-header .podcast-heading h1 {
     font-size: 28px;
   }
   .intro-header .categories-heading h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 
@@ -866,15 +869,11 @@ footer .theme-by {
 /* --- Pager --- */
 
 .pager li a {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-size: 14px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 18px;
+  font-style: italic;
   font-weight: 800;
-  letter-spacing: 1px;
-  padding: 10px 5px;
-  background: #FFF;
-  border-radius: 0;
-  color: #404040;
+  color: #ff4848;
 }
 @media only screen and (min-width: 768px) {
   .pager li a {
@@ -884,8 +883,7 @@ footer .theme-by {
 .pager li a:hover,
 .pager li a:focus {
   color: #FFF;
-  background: #0085a1;
-  border: 1px solid #0085a1;
+  background: #ff4848;
 }
 
 .pager {
@@ -985,7 +983,7 @@ div.splitbox div.right {
 
 /* Delayed Disqus */
 .disqus-comments button {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -1003,8 +1001,8 @@ div.splitbox div.right {
 .disqus-comments button:hover,
 .disqus-comments button:focus {
   color: #FFF;
-  background: #0085a1;
-  border: 1px solid #0085a1;
+  background: #ff1818;
+  border: 1px solid #ff1818;
 }
 
 /* Related posts */

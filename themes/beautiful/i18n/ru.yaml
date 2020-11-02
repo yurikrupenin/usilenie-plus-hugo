@@ -14,9 +14,9 @@
 - id: readMore
   translation: "Далее"
 - id: olderPosts
-  translation: "Постарей"
+  translation: "Ранее"
 - id: newerPosts
-  translation: "Посвежей"
+  translation: "Позднее"
 - id: previousPost
   translation: "Предыдущий"
 - id: nextPost

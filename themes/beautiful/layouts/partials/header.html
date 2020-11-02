@@ -70,9 +70,6 @@
               {{ else }}
                 <h1>{{ with $title }}{{.}}{{ else }}<br/>{{ end }}</h1>
               {{ end }}
-              {{ if and (ne .Type "post") (ne .Type "podcast") }}
-                <hr class="small">
-              {{ end }}
               {{ if $subtitle }}
                 {{ if eq .Type "page" }}
                   <span class="{{ .Type }}-subheading">{{ $subtitle }}</span>

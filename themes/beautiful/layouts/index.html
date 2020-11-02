@@ -10,7 +10,7 @@
 
         <div class="podcast-list">
           <div class="col-12">
-            <h3 class="content-section">Усиление+ подкаст</h3>
+            <h3 class="content-section">/* Усиление+ подкаст */</h3>
           </div>
           <div class="row justify-content-start">
             {{ range first 3 (where .Site.RegularPages "Type" "podcast") }}
@@ -24,7 +24,7 @@
             </div>
             {{ end }}
           </div>
-            <a href="{{ .Site.BaseURL }}categories/подкаст/" class="podcast-link">Все выпуски &rarr;</a>
+            <a href="{{ .Site.BaseURL }}categories/подкаст/"><i>Все выпуски &rarr;</i></a>
         </div>
 
         <!-- В это сложно поверить, но я СОВЕРШЕННО не знаю HTML -->
@@ -33,11 +33,12 @@
 
         <div class="posts-list">
           <div class="col-12">
-            <h3 class="content-section">Как подкаст только буквы</h3>
+            <h3 class="content-section">/* Усиление+ шитпост */</h3>
           </div>
           {{ $pag := .Paginate (where .Site.RegularPages "Type" "post") }}
           {{ range $pag.Pages }}
             <article class="post-preview">
+              {{ partial "post_meta.html" . }}
               <a href="{{ .Permalink }}">
                 <h2 class="post-title">{{ .Title }}</h2>
                 {{ if .Params.subtitle }}
@@ -49,16 +50,6 @@
                 <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" class="img-title" />
                 {{ end }}
               </a>
-
-              {{ partial "post_meta.html" . }}
-
-              {{ if .Params.tags }}
-                <div class="blog-tags">
-                  {{ range .Params.tags }}
-                    <a href="{{ $.Site.LanguagePrefix | absURL }}/tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
-                  {{ end }}
-                </div>
-              {{ end }}
             </article>
           {{ end }}
         </div>
@@ -66,14 +57,10 @@
         {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
           <ul class="pager main-pager">
             {{ if .Paginator.HasPrev }}
-              <li class="previous">
-                <a href="{{ .URL }}page/{{ .Paginator.Prev.PageNumber }}/">&larr; {{ i18n "newerPosts" }}</a>
-              </li>
+              <a href="{{ .URL }}page/{{ .Paginator.Prev.PageNumber }}/"><i>&larr; {{ i18n "newerPosts" }}</i></a>
             {{ end }}
             {{ if .Paginator.HasNext }}
-              <li class="next">
-                <a href="{{ .URL }}page/{{ .Paginator.Next.PageNumber }}/">{{ i18n "olderPosts" }} &rarr;</a>
-              </li>
+              <a href="{{ .URL }}page/{{ .Paginator.Next.PageNumber }}/"><i>{{ i18n "olderPosts" }} &rarr;</i></a>
             {{ end }}
           </ul>
         {{ end }}

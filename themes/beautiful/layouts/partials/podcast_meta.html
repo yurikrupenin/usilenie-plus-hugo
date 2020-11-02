@@ -1,3 +1,3 @@
+<h4 class="podcast-date">// {{ .Date.Day }} {{ index $.Site.Data.rumonths (printf "%d" .Date.Month) }} {{ .Date.Year }}</h4>
 <h3 class="podcast-title">{{ .Title }}</h3>
 <h4 class="podcast-subtitle">{{ .Params.subtitle }}</h4>
-<h4 class="podcast-date"><i class="fas fa-calendar podcast-subtitle"></i>&nbsp;{{ .Date.Day }} {{ index $.Site.Data.rumonths (printf "%d" .Date.Month) }} {{ .Date.Year }}, {{ dateFormat "15:04 MST" .Date.Local }}</h4>
