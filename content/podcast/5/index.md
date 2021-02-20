@@ -39,7 +39,7 @@ Playstation 5 и Xbox Series X: непринципиально более мощ
 
 \
 
-* [<b>Чуть обособленно: патреон</b>](https://patreon.com/yurikrupenin)
+* [<b>Чуть обособленно: патреон</b>](https://patreon.com/usilenie)
 
 \
 

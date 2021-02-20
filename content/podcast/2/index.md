@@ -35,7 +35,7 @@ tags:
 * [Overcast](https://overcast.fm/itunes1487512789)
 * [RSS](https://anchor.fm/s/1079e220/podcast/rss) \
 \
-* [<b>Чуть обособленно: патреон</b>](https://patreon.com/yurikrupenin)
+* [<b>Чуть обособленно: патреон</b>](https://patreon.com/usilenie)
 
 \
 

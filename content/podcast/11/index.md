@@ -39,4 +39,4 @@ tags:
 
 \
 
-* [<b>Чуть обособленно: патреон</b>](https://patreon.com/yurikrupenin)
+* [<b>Чуть обособленно: патреон</b>](https://patreon.com/usilenie)

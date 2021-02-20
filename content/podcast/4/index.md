@@ -42,7 +42,7 @@ tags:
 * [Яндекс.Музыка](https://music.yandex.ru/album/9244822) \
 * [RSS](https://anchor.fm/s/1079e220/podcast/rss) \
 \
-* [<b>Чуть обособленно: патреон</b>](https://patreon.com/yurikrupenin)
+* [<b>Чуть обособленно: патреон</b>](https://patreon.com/usilenie)
 
 
 \
