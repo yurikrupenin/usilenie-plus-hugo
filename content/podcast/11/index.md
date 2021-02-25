@@ -23,7 +23,7 @@ tags:
 
 \
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/981085747&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/usilenie_plus" title="Усиление+ Подкаст" target="_blank" style="color: #cccccc; text-decoration: none;">Усиление+ Подкаст</a> · <a href="https://soundcloud.com/usilenie_plus/11-orson-uells-pervootkryvatelstvo-v-epokhu-interneta-i-zapis-podkastov" title="11 — Орсон Уэллс, первооткрывательство в эпоху интернета, и запись подкастов" target="_blank" style="color: #cccccc; text-decoration: none;">11 — Орсон Уэллс, первооткрывательство в эпоху интернета, и запись подкастов</a></div>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/981085747&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
 \
 
@@ -40,3 +40,6 @@ tags:
 \
 
 * [<b>Чуть обособленно: патреон</b>](https://patreon.com/usilenie)
+
+
+<iframe src="https://yoomoney.ru/quickpay/shop-widget?writer=seller&targets=%D0%98%D0%BB%D0%B8%20%D0%B7%D0%B0%D0%BD%D0%B5%D1%81%D1%82%D0%B8%20%D0%BD%D0%B0%20%D0%BF%D0%B8%D0%B2%D0%BE%20(%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%8F%20%D0%BE%D0%B1%D0%BC%D0%B0%D0%BD%D1%8B%D0%B2%D0%B0%D1%8E%2C%20%D0%BD%D0%B0%20%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D1%85%D0%BB%D0%B0%D0%BC)%20%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%BE&targets-hint=&default-sum=200&button-text=11&payment-type-choice=on&mobile-payment-type-choice=on&comment=on&hint=&successURL=&quickpay=shop&account=410016665247103" width="100%" height="330" frameborder="0" allowtransparency="true" scrolling="no"></iframe>

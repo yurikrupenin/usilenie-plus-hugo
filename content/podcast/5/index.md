@@ -41,6 +41,9 @@ Playstation 5 и Xbox Series X: непринципиально более мощ
 
 * [<b>Чуть обособленно: патреон</b>](https://patreon.com/usilenie)
 
+
+<iframe src="https://yoomoney.ru/quickpay/shop-widget?writer=seller&targets=%D0%98%D0%BB%D0%B8%20%D0%B7%D0%B0%D0%BD%D0%B5%D1%81%D1%82%D0%B8%20%D0%BD%D0%B0%20%D0%BF%D0%B8%D0%B2%D0%BE%20(%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%8F%20%D0%BE%D0%B1%D0%BC%D0%B0%D0%BD%D1%8B%D0%B2%D0%B0%D1%8E%2C%20%D0%BD%D0%B0%20%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D1%85%D0%BB%D0%B0%D0%BC)%20%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%BE&targets-hint=&default-sum=200&button-text=11&payment-type-choice=on&mobile-payment-type-choice=on&comment=on&hint=&successURL=&quickpay=shop&account=410016665247103" width="100%" height="330" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+
 \
 
 **Примечание 1:** в определенные моменты вы можете заметить, что я слегка некорректно описываю TTS, light volumes и clustered deferred shading, не затрагиваю вопрос о имплементации BVH и RT/Tri-ускорителях в RDNA2, перехожу от рейтрейсинга к пафтрейсингу без объяснения различий, и вообще в угоду повествованию говорю куда больше о новых возможностях, чем о проблемах: это не то чтоб совсем умышленно, но сознательно -- я и так опять раздул выпуск, и мне не хватило бы и десяти часов, если бы я везде сохранял полную техническую точность; да, я много где здесь говорю о вещах, которые сам полностью не понимаю (меш-шейдинг сложно, я пока не полностью разобрался), но это не те случаи.

@@ -54,6 +54,8 @@ tags:
 
 * [<b>Чуть обособленно: патреон</b>](https://patreon.com/usilenie)
 
+<iframe src="https://yoomoney.ru/quickpay/shop-widget?writer=seller&targets=%D0%98%D0%BB%D0%B8%20%D0%B7%D0%B0%D0%BD%D0%B5%D1%81%D1%82%D0%B8%20%D0%BD%D0%B0%20%D0%BF%D0%B8%D0%B2%D0%BE%20(%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%8F%20%D0%BE%D0%B1%D0%BC%D0%B0%D0%BD%D1%8B%D0%B2%D0%B0%D1%8E%2C%20%D0%BD%D0%B0%20%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D1%85%D0%BB%D0%B0%D0%BC)%20%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%BE&targets-hint=&default-sum=200&button-text=11&payment-type-choice=on&mobile-payment-type-choice=on&comment=on&hint=&successURL=&quickpay=shop&account=410016665247103" width="100%" height="330" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+
 \
 
 Это ленивый необязательный выпуск, здесь нет таймстампов и референсов (я хотел поставить таймстамп "интересно начинается здесь", но не нашёл подходящего момента, что поделать).
