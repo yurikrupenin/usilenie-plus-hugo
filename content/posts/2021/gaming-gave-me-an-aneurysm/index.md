@@ -261,6 +261,13 @@ tags:
 \
 
 
+{{<img src="images/hollow_knight">}}
+<center>_**Hollow Knight**_</center>
+
+\
+\
+
+
 {{<img src="images/homeworld">}}
 <center>_**Homeworld**_</center>
 
@@ -288,6 +295,13 @@ tags:
 {{<img src="images/littlebigplanet">}}
 <center>_**LittleBigPlanet**_</center>
 
+
+\
+\
+
+
+{{<img src="images/loop_hero">}}
+<center>_**Loop Hero** -- редкий случай: игра ещё не вышла на момент обучения CLIP_</center>
 
 \
 \
@@ -326,6 +340,14 @@ tags:
 
 {{<img src="images/minecraft">}}
 <center>_**Minecraft**_</center>
+
+
+\
+\
+
+
+{{<img src="images/neverwinter_nights">}}
+<center>_**Neverwinter Nights**_</center>
 
 
 \
@@ -380,6 +402,14 @@ tags:
 \
 
 
+{{<img src="images/quake_iii_arena">}}
+<center>_**Quake III: Arena** -- да, так гораздо лучше_</center>
+
+
+\
+\
+
+
 {{<img src="images/red_dead_redemption">}}
 <center>_**Red Dead Redemption**_</center>
 
@@ -398,6 +428,14 @@ tags:
 
 {{<img src="images/rome_total_war">}}
 <center>_**Rome: Total War** -- это... это оверлей телеканала?.._</center>
+
+
+\
+\
+
+
+{{<img src="images/sekiro_shadows_die_twice">}}
+<center>_**Sekiro: Shadows Die Twice**_</center>
 
 \
 \
@@ -451,6 +489,13 @@ tags:
 \
 
 
+{{<img src="images/morrowind">}}
+<center>_**The Elder Scrolls III: Morrowind**_</center>
+
+\
+\
+
+
 {{<img src="images/the_elder_scrolls_skyrim">}}
 <center>_**The Elder Scrolls V: Skyrim**_</center>
 
@@ -485,6 +530,14 @@ tags:
 
 {{<img src="images/the_witcher_wild_hunt">}}
 <center>_**The Witcher 3: Wild Hunt** -- а что, и вполне даже похож._</center>
+
+
+\
+\
+
+
+{{<img src="images/tomb_raider">}}
+<center>_**Tomb Raider**_</center>
 
 
 \
