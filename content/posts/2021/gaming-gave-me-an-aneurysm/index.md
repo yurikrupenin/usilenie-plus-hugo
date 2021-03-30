@@ -44,6 +44,14 @@ tags:
 
 Всё, дальше в этом посте только сгенерированные BigSleep изображения, подпись к кажодму -- как несложно догадаться, запрос, по которому оно было сгенерированно. Иногда с моим страшно остроумным комментарием после дефиса, всем спасибо за внимание.
 
+\
+\
+
+
+{{<img src="images/assassins_creed">}}
+<center>_**Assassin's Creed** -- классический (даже чуть странно писать это слово)! На вышке!_</center>
+
+
 
 \
 \
@@ -59,6 +67,14 @@ tags:
 
 {{<img src="images/batman_arkham_city">}}
 <center>_**Batman: Arkham City**_</center>
+
+
+\
+\
+
+
+{{<img src="images/bayonetta">}}
+<center>_**Bayonetta** -- да, это безошибочно Байонетта_</center>
 
 
 \
@@ -138,6 +154,14 @@ tags:
 
 {{<img src="images/company_of_heroes">}}
 <center>_**Company of Heroes**_</center>
+
+
+\
+\
+
+
+{{<img src="images/demons_souls">}}
+<center>_**Demon's Souls**_</center>
 
 
 \
@@ -293,6 +317,13 @@ tags:
 \
 
 
+{{<img src="images/microsoft_flight_simulator">}}
+<center>_**Microsoft Flight Simulator**_</center>
+
+\
+\
+
+
 {{<img src="images/minecraft">}}
 <center>_**Minecraft**_</center>
 
@@ -360,6 +391,13 @@ tags:
 {{<img src="images/resident_evil">}}
 <center>_**Resident Evil**_</center>
 
+
+\
+\
+
+
+{{<img src="images/rome_total_war">}}
+<center>_**Rome: Total War** -- это... это оверлей телеканала?.._</center>
 
 \
 \
@@ -456,6 +494,13 @@ tags:
 {{<img src="images/tony_hawks_pro_skater">}}
 <center>_**Tony Hawk's Pro Skater** -- хотели буквально, но в датасете не было нужной птички, наверное_</center>
 
+
+\
+\
+
+
+{{<img src="images/twisted_metal_black">}}
+<center>_**Twisted Metal: Black**_</center>
 
 \
 \
