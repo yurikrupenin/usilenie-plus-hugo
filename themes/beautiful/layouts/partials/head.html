@@ -45,17 +45,25 @@
   <link href='{{ . | absURL }}' rel='icon' type='image/x-icon'/>
 {{- end -}}
 <!-- Social Media Tags -->
-{{- if .Params.featured }}
+{{ if eq .Type "podcast" }}
+  <meta property="og:image" content="/media/design/podcast-logo.jpg" />
+  <meta name="twitter:image" content="/media/design/podcast-logo.jpg" />
+  <meta name="twitter:player" content='https://usilenie.plus/js/podcast-player/share.html?config=https://usilenie.plus/js/podcast-player/config.json&episode={{ trim .Permalink "/" }}/episode.json'/>
+  <meta name="twitter:player:width" content="440"/>
+  <meta name="twitter:player:height" content="200"/>
+  <meta name="twitter:card" content="player"/>
+{{- else if .Params.featured }}
   {{ $img := .Page.Resources.GetMatch (printf "*%s*" (.Params.featured)) }}
   <meta property="og:image" content="{{ $img.Permalink }}" />
   <meta name="twitter:image" content="{{ $img.Permalink }}" />
+  <meta name="twitter:card" content="summary" />
 {{- else }}
   {{- with .Params.share_img | default .Params.featured_image | default .Params.bigimg | default .Site.Params.logo }}
     <meta property="og:image" content="{{ . | absURL }}" />
     <meta name="twitter:image" content="{{ . | absURL }}" />
   {{- end }}
-{{- end }}
   <meta name="twitter:card" content="summary" />
+{{- end }}
 {{- with .Site.Author.twitter }}
   <meta name="twitter:site" content="@{{ . }}" />
   <meta name="twitter:creator" content="@{{ . }}" />

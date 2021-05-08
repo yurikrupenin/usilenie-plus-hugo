@@ -37,13 +37,13 @@ tags:
 \
 \
 
-<div id="app" class="app" data-variant="xl">
+<div id="podcast-player" class="podcast-player" data-variant="xl">
 </div>
 
 <script src="/js/podcast-player/embed.js"></script>
 
 <script>
-  window.podlovePlayer("#app", "episode.json", "/js/podcast-player/config.json")
+  window.podlovePlayer("#podcast-player", "episode.json", "/js/podcast-player/config.json")
       .then(store => {
         store.subscribe(() => {
           console.log(store.getState());
