@@ -21,11 +21,9 @@ tags:
 Итак, издание "Усиление+" запускает подкаст в жанре "мужчина ворчит на вещи, про которые вроде говорил, что их любит".
 
 \
-
-Вот он, прямо здесь:
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/709301053&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
+\
+{{<podcast>}}
+\
 \
 
 Альтернативные линки:

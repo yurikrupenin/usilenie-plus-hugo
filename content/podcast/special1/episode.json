@@ -5,20 +5,20 @@
     "poster": "/media/design/podcast-logo.jpg",
     "link": "https://usilenie.plus"
   },
-  "title": "12 — Эпизод с очень длинным названием",
-  "duration": "39:04",
-  "link": "https://usilenie.plus/podcast/12/",
+  "title": "Велосипедный Special 1 — Суматошное введение в велотуризм",
+  "duration": "2:38:59",
+  "link": "https://usilenie.plus/podcast/special1/",
   "audio": [
     {
-      "url": "https://f000.backblazeb2.com/file/usilenie-plus-podcast/012.mp3",
+      "url": "https://f000.backblazeb2.com/file/usilenie-plus-podcast/speical_01.mp3",
       "title": "MP3 320kbps",
-      "size": "94000000",
+      "size": "386000000",
       "mimeType": "audio/mpeg"
     },
     {
-      "url": "https://f000.backblazeb2.com/file/usilenie-plus-podcast/012.wav",
+      "url": "https://f000.backblazeb2.com/file/usilenie-plus-podcast/special_01.wav",
       "title": "Несжатый WAV",
-      "size": "207000000",
+      "size": "841000000",
       "mimeType": "audio/wav"
     }
   ]

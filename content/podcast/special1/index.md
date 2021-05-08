@@ -29,9 +29,9 @@ tags:
 **P.P.S.** Сайт GPSies, о котором я несколько раз говорю в этом выпуске, успел продаться Alltrails и влиться в Alltrails полностью (ну, прекратить своё существование, и остаться только в виде накопленных пользовательских треков); приведу в референсах ссылку сразу на Alltrails.
 
 \
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/787774540&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
+\
+{{<podcast>}}
+\
 \
 
 Альтернативные линки (новые эпизоды могут появляться с некоторым запозданием):

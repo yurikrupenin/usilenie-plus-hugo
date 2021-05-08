@@ -25,9 +25,9 @@ tags:
 Окей, это на самом деле серьезный разговор про опасную привычку фанатов фильмов и видеоигр по умолчанию не считать создателей их любимого медиа за людей. Смогу ли я кого-то переубедить, полчаса плюясь в микрофон? Кто знает, но твиттер точно не работает.
 
 \
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/832289404&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
+\
+{{<podcast>}}
+\
 \
 
 Альтернативные линки (новые эпизоды могут появляться с некоторым запозданием):

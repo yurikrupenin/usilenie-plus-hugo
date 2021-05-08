@@ -26,10 +26,11 @@ tags:
 
 Сегодня в программе несколько плавно перетекающих друг в друга баек, никакой сложной аналитики, чистейший блозек "Я и моя странная кошка" в аудиоформате, энжой (я понимаю, что это может оказаться непросто).
 
+
 \
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/726782545%3Fsecret_token%3Ds-BEkLc&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
+\
+{{<podcast>}}
+\
 \
 
 Альтернативные линки (новые эпизоды могут появляться с некоторым запозданием):

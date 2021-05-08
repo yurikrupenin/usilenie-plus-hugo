@@ -22,9 +22,9 @@ Playstation 5 и Xbox Series X: непринципиально более мощ
 Десять раз обещал себе, что не буду больше делать таких обзорных материалов, но мог ли я *не* почесать языком о некстджен-мякотке? Извините за качество записи -- я мучал текст месяц, чтобы зачитать его второпях за один день, к тому же под неожиданные весенние звуки из-за окна; со второй частью проблемы попробую к следующему разу что-нибудь сделать!
 
 \
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/815045710&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
+\
+{{<podcast>}}
+\
 \
 
 Альтернативные линки (новые эпизоды могут появляться с некоторым запозданием):

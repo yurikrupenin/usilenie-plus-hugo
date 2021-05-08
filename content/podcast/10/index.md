@@ -23,9 +23,11 @@ tags:
 В этом выпуске — про новый иксбокс и про несколько ключевых технологий, внедрения или более широкого распространения которых мы ожидаем на этом поколении (VRR? VRS? HDR? Почему здесь везде по три буквы?..)
 
 \
+\
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/971678332&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+{{<podcast>}}
 
+\
 \
 
 Альтернативные линки (новые эпизоды могут появляться с некоторым запозданием):

@@ -5,20 +5,20 @@
     "poster": "/media/design/podcast-logo.jpg",
     "link": "https://usilenie.plus"
   },
-  "title": "12 — Эпизод с очень длинным названием",
-  "duration": "39:04",
-  "link": "https://usilenie.plus/podcast/12/",
+  "title": "11 — Орсон Уэллс, первооткрывательство в эпоху интернета, и запись подкастов",
+  "duration": "36:08",
+  "link": "https://usilenie.plus/podcast/11/",
   "audio": [
     {
-      "url": "https://f000.backblazeb2.com/file/usilenie-plus-podcast/012.mp3",
+      "url": "https://f000.backblazeb2.com/file/usilenie-plus-podcast/011.mp3",
       "title": "MP3 320kbps",
-      "size": "94000000",
+      "size": "87000000",
       "mimeType": "audio/mpeg"
     },
     {
-      "url": "https://f000.backblazeb2.com/file/usilenie-plus-podcast/012.wav",
+      "url": "https://f000.backblazeb2.com/file/usilenie-plus-podcast/011.wav",
       "title": "Несжатый WAV",
-      "size": "207000000",
+      "size": "191000000",
       "mimeType": "audio/wav"
     }
   ]

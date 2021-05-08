@@ -22,9 +22,9 @@ tags:
 Мы с некоторым запозданием, но всё же наконец выпустили третий эпизод, что ставит нас на одну ступень выше Valve. Спокойный, в основном ретроспективный выпуск, основная тема: 20 лет назад было веселее (кто мог подумать).
 
 \
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/719247598&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
+\
+{{<podcast>}}
+\
 \
 
 Альтернативные линки (новые эпизоды могут появляться с некоторым запозданием):
