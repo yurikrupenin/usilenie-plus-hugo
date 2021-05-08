@@ -1,0 +1,26 @@
+{
+  "show": {
+    "title": "Усиление+ Подкаст",
+    "subtitle": "Horizonte für Bildung und Forschung",
+    "summary": "Мужчина средних лет ворчит про вещи, которые ему вроде бы нравятся.",
+    "poster": "/media/design/podcast-logo.jpg",
+    "link": "https://usilenie.plus"
+  },
+  "title": "12 — Эпизод с очень длинным названием",
+  "duration": "39:04",
+  "link": "https://usilenie.plus/podcast/12/",
+  "audio": [
+    {
+      "url": "https://f000.backblazeb2.com/file/usilenie-plus-podcast/012.mp3",
+      "title": "MP3 320kbps",
+      "size": "94000000",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "url": "https://f000.backblazeb2.com/file/usilenie-plus-podcast/012.wav",
+      "title": "Несжатый WAV",
+      "size": "207000000",
+      "mimeType": "audio/wav"
+    }
+  ]
+}

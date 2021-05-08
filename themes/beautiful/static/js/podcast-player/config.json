@@ -1,0 +1,131 @@
+{
+  "base": "/js/podcast-player/",
+  "theme": {
+    "tokens": {
+      "brand": "#166255",
+      "brandDark": "#166255",
+      "brandDarkest": "#1A3A4A",
+      "brandLightest": "#E5EAECFF",
+      "shadeDark": "#807E7C",
+      "shadeBase": "#807E7C",
+      "contrast": "#000",
+      "alt": "#fff"
+    },
+    "fonts": {
+        "ci": {
+          "name": "RobotoBlack",
+          "family": [
+            "RobotoBlack",
+            "Calibri",
+            "Candara",
+            "Arial",
+            "Helvetica",
+            "sans-serif"
+          ],
+          "weight": 900
+        },
+        "regular": {
+          "name": "FiraSansLight",
+          "family": [
+            "FiraSansLight",
+            "Calibri",
+            "Candara",
+            "Arial",
+            "Helvetica",
+            "sans-serif"
+          ],
+          "weight": 300
+        },
+        "bold": {
+          "name": "FiraSansBold",
+          "family": [
+            "FiraSansBold",
+            "Calibri",
+            "Candara",
+            "Arial",
+            "Helvetica",
+            "sans-serif"
+          ],
+          "weight": 700
+        }
+      }
+    },
+    "subscribe-button": {
+      "feed": "https://forschergeist.de/feed/m4a/",
+      "clients": [
+        {
+          "id": "apple-podcasts",
+          "service": "id934797989"
+        },
+        {
+          "id": "antenna-pod"
+        },
+        {
+          "id": "beyond-pod"
+        },
+        {
+          "id": "castro"
+        },
+        {
+          "id": "clementine"
+        },
+        {
+          "id": "deezer",
+          "service": "deezer-id"
+        },
+        {
+          "id": "downcast"
+        },
+        {
+          "id": "google-podcasts",
+          "service": "https://forschergeist.de/feed/m4a/"
+        },
+        {
+          "id": "gpodder"
+        },
+        {
+          "id": "itunes"
+        },
+        {
+          "id": "i-catcher"
+        },
+        {
+          "id": "instacast"
+        },
+        {
+          "id": "overcast"
+        },
+        {
+          "id": "player-fm"
+        },
+        {
+          "id": "pocket-casts"
+        },
+        {
+          "id": "pocket-casts",
+          "service": "https://forschergeist.de/feed/m4a/"
+        },
+        {
+          "id": "pod-grasp"
+        },
+        {
+          "id": "podcast-addict"
+        },
+        {
+          "id": "podcast-republic"
+        },
+        {
+          "id": "podcat"
+        },
+        {
+          "id": "podscout"
+        },
+        {
+          "id": "rss-radio"
+        },
+        {
+          "id": "rss"
+        }
+      ]
+    }
+}

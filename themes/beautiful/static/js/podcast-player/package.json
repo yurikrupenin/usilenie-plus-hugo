@@ -1,0 +1,39 @@
+{
+  "_from": "@podlove/web-player",
+  "_id": "@podlove/web-player@5.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-4kzAOTc1MxuM+zDHHgURR1bjQ+J9HKOizlp/kBGA3OaeoE4n3mdeesTpVEJ5e8dSWQ630QwktEfxtYWYN+PEoQ==",
+  "_location": "/@podlove/web-player",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@podlove/web-player",
+    "name": "@podlove/web-player",
+    "escapedName": "@podlove%2fweb-player",
+    "scope": "@podlove",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@podlove/web-player/-/web-player-5.5.0.tgz",
+  "_shasum": "7cf125a540bc4d2047b6801a0e7f6cf36ec3cefb",
+  "_spec": "@podlove/web-player",
+  "_where": "/home/yuri/git/podlove",
+  "author": {
+    "name": "Alexander Heimbuch",
+    "email": "github@heimbu.ch"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Embedded version of Podlove Player",
+  "homepage": "https://github.com/podlove/ui/tree/development/apps/web-player",
+  "keywords": [],
+  "license": "MIT",
+  "name": "@podlove/web-player",
+  "version": "5.5.0"
+}
