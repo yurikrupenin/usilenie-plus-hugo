@@ -1,0 +1,25 @@
+{
+  "show": {
+    "title": "Усиление+ Подкаст",
+    "summary": "Мужчина средних лет ворчит про вещи, которые ему вроде бы нравятся.",
+    "poster": "/media/design/podcast-logo.jpg",
+    "link": "https://usilenie.plus"
+  },
+  "title": "13 — Returnal, Housemarque, и видеоигры вообще",
+  "duration": "29:06",
+  "link": "https://usilenie.plus/podcast/12/",
+  "audio": [
+    {
+      "url": "https://f000.backblazeb2.com/file/usilenie-plus-podcast/013.mp3",
+      "title": "MP3 320kbps",
+      "size": "42000000",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "url": "https://f000.backblazeb2.com/file/usilenie-plus-podcast/013.wav",
+      "title": "Несжатый WAV",
+      "size": "154000000",
+      "mimeType": "audio/wav"
+    }
+  ]
+}
