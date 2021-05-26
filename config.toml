@@ -3,7 +3,6 @@ DefaultContentLanguage = "ru"
 languageCode = "ru-ru"
 title = "Некстджен и Усиление+"
 theme = "beautiful"
-disqusShortname = "nekstdzhen-i-usilenie"
 googleAnalytics = "UA-22075196-6"
 enableMissingTranslationPlaceholders = false
 timeout = 3600000
@@ -20,7 +19,6 @@ hrefTargetBlank = true
  logo = "img/logo.png"
  favicon = "img/favicon.png"
  rss = true
- comments = true
  showRelatedPosts = true
  featuredImagesOnFrontpage = false
 
