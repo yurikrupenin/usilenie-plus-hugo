@@ -1,0 +1,25 @@
+{
+  "show": {
+    "title": "Усиление+ Подкаст",
+    "summary": "Мужчина средних лет ворчит про вещи, которые ему вроде бы нравятся.",
+    "poster": "/media/design/podcast-logo.jpg",
+    "link": "https://usilenie.plus"
+  },
+  "title": "Велосипедный Special 3 — Электросамокаты и выживание в автотрафике",
+  "duration": "31:34",
+  "link": "https://usilenie.plus/podcast/special3/",
+  "audio": [
+    {
+      "url": "https://f000.backblazeb2.com/file/usilenie-plus-podcast/speical_03.mp3",
+      "title": "MP3 VBR",
+      "size": "36104244",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "url": "https://f000.backblazeb2.com/file/usilenie-plus-podcast/special_03.wav",
+      "title": "Несжатый WAV",
+      "size": "167102040",
+      "mimeType": "audio/wav"
+    }
+  ]
+}
