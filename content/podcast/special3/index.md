@@ -42,3 +42,4 @@ tags:
 
 \
 
+В оформлении эпизода использована композиция Desertification (великой) группы Serpent Column.
