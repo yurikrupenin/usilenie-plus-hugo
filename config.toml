@@ -16,7 +16,7 @@ hrefTargetBlank = true
 
 [Params]
  subtitle = "Больно читать? В этом вся задумка."
- logo = "img/logo.png"
+ logo = "img/logo_2.png"
  favicon = "img/favicon.png"
  rss = true
  showRelatedPosts = true
