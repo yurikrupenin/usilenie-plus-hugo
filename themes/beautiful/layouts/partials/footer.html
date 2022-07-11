@@ -13,19 +13,6 @@
               </li>
             {{- end -}}
           {{ end }}
-          {{ if .Site.Params.rss }}
-          <li>
-            {{ if .RSSLink }}
-            <a href="{{ .RSSLink }}" title="RSS">
-            {{ else }}
-            <a href="{{ .Site.RSSLink }}" title="RSS">
-            {{ end }}
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-rss fa-stack-1x"></i>
-              </span>
-            </a>
-          </li>
-          {{ end }}
         </ul>
         <p class="credits copyright text-muted">
           {{ if .Site.Author.name }}
