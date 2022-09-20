@@ -8,11 +8,14 @@ enableMissingTranslationPlaceholders = false
 timeout = 3600000
 
 [markup]
-defaultMarkdownHandler = "blackfriday"
-
-[blackfriday]
 angledQuotes = true
 hrefTargetBlank = true
+
+[markup.goldmark.renderer]
+hardWraps = true 
+unsafe = true 
+xhtml = true 
+
 
 [Params]
  subtitle = "Больно читать? В этом вся задумка."
