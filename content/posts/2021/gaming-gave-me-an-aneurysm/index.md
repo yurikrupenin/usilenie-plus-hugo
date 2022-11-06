@@ -17,7 +17,7 @@ tags:
 ---
 
 
-\
+<br />
 
 Посты такого рода обычно начинаются с пассажа о том, как автор не имеет никакого представления о принципах работы нейросетей, а значит, дни человечества сочтены и мы добровольно подкладываем голову (метафорическую, общечеловеческую) под стремительно приближающуюся синтетическую пяту.
 
@@ -25,582 +25,513 @@ tags:
 
 **BigSleep** на верхнем уровне, однако, достаточно простая вещь: она состоит на самом деле из двух моделей -- **CLIP**, оценивающей, что происходит на изображении, и **BigGAN**, изображения генерирующей. Вся большая идея заключается в том, чтобы многократно (каждая картинка проходит сотни и тысячи итераций) и последовательно модифицировать вывод BigGAN так, чтобы CLIP была всё более и более уверенна в том, что на картинке происходят именно вещи, которых просил пользователь.
 
-\
+
+<br />
+
 
 {{<img src="images/howitworks">}}
-<center>_Украденная [из чужого поста](https://wandb.ai/gudgud96/big-sleep-test/reports/Image-Generation-Based-on-Abstract-Concepts-using-CLIP-BigGAN--Vmlldzo1MjA2MTE) картинка, объясняющая общие принципы_</center>
+<center><i>Украденная <a href="https://wandb.ai/gudgud96/big-sleep-test/reports/Image-Generation-Based-on-Abstract-Concepts-using-CLIP-BigGAN--Vmlldzo1MjA2MTE">(из чужого поста)</a> картинка, объясняющая общие принципы</i></center>
 
-\
-\
+
+<br />
+
 
 Вы можете видеть на картинке с визуализацией промежуточных итераций, как по запросу "Bioshock" узнаваемый стиль постепенно прорастает из изображения собачки с интересным выражением мордочки.
 
 {{<img src="images/bioshock-iterations">}}
-<center>_Отвечает ли мордочка собаки на "shock" из запроса? Я намерен мучаться этим вопросом до конца своих дней._</center>
+<center><i>Отвечает ли мордочка собаки на "shock" из запроса? Я намерен мучаться этим вопросом до конца своих дней.</i></center>
 
-\
-\
+
+<br />
 
 
 Всё, дальше в этом посте только сгенерированные BigSleep изображения, подпись к кажодму -- как несложно догадаться, запрос, по которому оно было сгенерированно. Иногда с моим страшно остроумным комментарием после дефиса, всем спасибо за внимание.
 
-\
-\
+<br />
 
 
 {{<img src="images/assassins_creed">}}
-<center>_**Assassin's Creed** -- классический (даже чуть странно писать это слово)! На вышке!_</center>
+<center><i><b>Assassin's Creed</b></i> — классический (даже чуть странно писать это слово)! На вышке!</i></center>
 
 
-
-\
-\
+<br />
 
 
 {{<img src="images/baldurs_gate_shadows_of_amn">}}
-<center>_**Baldur's Gate II: Shadows of Amn** -- я в принципе вполне способен разглядеть здесь скриншот из игры_</center>
+<center><i><b>Baldur's Gate II: Shadows of Amn</b> — я в принципе вполне способен разглядеть здесь скриншот из игры</i></center>
 
-
-\
-\
+<br />
 
 
 {{<img src="images/batman_arkham_city">}}
-<center>_**Batman: Arkham City**_</center>
+<center><i><b>Batman: Arkham City</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/bayonetta">}}
-<center>_**Bayonetta** -- да, это безошибочно Байонетта_</center>
+<center><i><b>Bayonetta</b> — да, это безошибочно Байонетта</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/bioshock">}}
-<center>_**Bioshock** -- нет ни единого шанса разобраться, что здесь изображено, но это каким-то образом несомненно **именно тот** шейдинг_</center>
+<center><i><b>Bioshock</b> — нет ни единого шанса разобраться, что здесь изображено, но это каким-то образом несомненно <b>именно тот</b> шейдинг</i></center>
 
-\
-\
+
+<br />
 
 
 {{<img src="images/bioshock_infinite">}}
-<center>_**Bioshock: Infinite**_</center>
+<center><i><b>Bioshock: Infinite</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/bloodborne">}}
-<center>_**Bloodborne**_</center>
+<center><i><b>Bloodborne</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/braid">}}
-<center>_**Braid** -- что ж, да, это косичка_</center>
+<center><i><b>Braid</b> — что ж, да, это косичка</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/burnout_takedown">}}
-<center>_**Burnout 3: Takedown** -- главное, допустим, сеть ухватила!_</center>
+<center><i><b>Burnout 3: Takedown</b> — главное, допустим, сеть ухватила!</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/call_of_duty_modern_warfare">}}
-<center>_**Call of Duty: Modern Warfare**_</center>
+<center><i><b>Call of Duty: Modern Warfare</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/castlevania_symphony_of_the_night">}}
-<center>_**Castlevania: Symphony of the Night**_</center>
+<center><i><b>Castlevania: Symphony of the Night</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/celeste">}}
-<center>_**Celeste** -- мммм, у меня здесь впечатление, будто нас серьёзным образом не так поняли, явно какая-то другая Celeste._</center>
+<center><i><b>Celeste</b> — мммм, у меня здесь впечатление, будто нас серьёзным образом не так поняли, явно какая-то другая Celeste.</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/chrono_cross">}}
-<center>_**Chrono Cross** -- здесь впервые не уверен, что хоть что-то вижу_</center>
+<center><i><b>Chrono Cross</b> — здесь впервые не уверен, что хоть что-то вижу</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/company_of_heroes">}}
-<center>_**Company of Heroes**_</center>
+<center><i><b>Company of Heroes</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/demons_souls">}}
-<center>_**Demon's Souls**_</center>
+<center><i><b>Demon's Souls</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/devil_may_cry">}}
-<center>_**Devil May Cry** -- а вот это то ли просто скриншот из четвёртой части, то ли кадр из не вышедшего пока ещё лайвэкшна. Фантастика._</center>
+<center><i><b>Devil May Cry</b> — а вот это то ли просто скриншот из четвёртой части, то ли кадр из не вышедшего пока ещё лайвэкшна. Фантастика.</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/diablo">}}
-<center>_**Diablo** -- да, это серьёзно злой щеночек, стоящий на паркетном полу_</center>
+<center><i><b>Diablo</b> — да, это серьёзно злой щеночек, стоящий на паркетном полу</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/disco_elysium">}}
-<center>_**Disco Elysium**_</center>
+<center><i><b>Disco Elysium</b></i></center>
 
-\
-\
+<br />
 
 
 {{<img src="images/gears_of_war">}}
-<center>_**Gears of War**_</center>
+<center><i><b>Gears of War</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/goldeneye_007">}}
-<center>_**GoldenEye 007** -- Окей, явно слишком буквально._</center>
+<center><i><b>GoldenEye 007</b> — Окей, явно слишком буквально.</i></center>
 
-\
-\
+<br />
 
 {{<img src="images/gran_turismo">}}
-<center>_**Gran Turismo**_</center>
+<center><i><b>Gran Turismo</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/grand_theft_auto">}}
-<center>_**Grand Theft Auto**_</center>
+<center><i><b>Grand Theft Auto</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/grand_theft_auto_vice_city">}}
-<center>_**Grand Theft Auto: Vice City** -- ehhh, по крайней мере она всё правильно поняла про цветовое решение_</center>
+<center><i><b>Grand Theft Auto: Vice City</b> — ehhh, по крайней мере она всё правильно поняла про цветовое решение</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/grim_fandango">}}
-<center>_**Grim Fandango**_</center>
+<center><i><b>Grim Fandango</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/hades">}}
-<center>_**Hades** -- ух ты, даже подписала_</center>
+<center><i><b>Hades</b> — ух ты, даже подписала</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/halflife">}}
-<center>_**Half-Life** -- она нарисовала лямбду?.._</center>
+<center><i><b>Half-Life</b> — она нарисовала лямбду?..</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/halo_combat_evolved">}}
-<center>_**Halo: Combat Evolved** -- нравится думать, что та гифка с мастерчифом-котиком сбила с толку (я понятия не имею, если честно, что там у CLIP за датасет)_</center>
+<center><i><b>Halo: Combat Evolved</b> — нравится думать, что та гифка с мастерчифом-котиком сбила с толку (я понятия не имею, если честно, что там у CLIP за датасет)</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/hollow_knight">}}
-<center>_**Hollow Knight**_</center>
+<center><i><b>Hollow Knight</b></i></center>
 
-\
-\
+<br />
 
 
 {{<img src="images/homeworld">}}
-<center>_**Homeworld**_</center>
+<center><i><b>Homeworld</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/jet_set_radio">}}
-<center>_**Jet Set Radio** -- ааааааааааааа_</center>
+<center><i><b>Jet Set Radio</b> — ааааааааааааа</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/journey">}}
-<center>_**Journey**_</center>
+<center><i><b>Journey</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/littlebigplanet">}}
-<center>_**LittleBigPlanet**_</center>
+<center><i><b>LittleBigPlanet</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/loop_hero">}}
-<center>_**Loop Hero** -- редкий случай: игра ещё не вышла на момент обучения CLIP_</center>
+<center><i><b>Loop Hero</b> — редкий случай: игра ещё не вышла на момент обучения CLIP</i></center>
 
-\
-\
+<br />
 
 
 {{<img src="images/mass_effect">}}
-<center>_**Mass Effect** -- не могу вспомнить, какая это из концовок_</center>
+<center><i><b>Mass Effect</b> — не могу вспомнить, какая это из концовок</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/metal_gear_solid_sons_of_liberty">}}
-<center>_**Metal Gear Solid: Sons of Liberty**_</center>
+<center><i><b>Metal Gear Solid: Sons of Liberty</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/metroid_prime">}}
-<center>_**Metroid Prime**_</center>
+<center><i><b>Metroid Prime</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/microsoft_flight_simulator">}}
-<center>_**Microsoft Flight Simulator**_</center>
+<center><i><b>Microsoft Flight Simulator</b></i></center>
 
-\
-\
+<br />
 
 
 {{<img src="images/minecraft">}}
-<center>_**Minecraft**_</center>
+<center><i><b>Minecraft</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/neverwinter_nights">}}
-<center>_**Neverwinter Nights**_</center>
+<center><i><b>Neverwinter Nights</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/ninja_gaiden_black">}}
-<center>_**Ninja Gaiden Black** -- отовсюду понатаскала, уважаю!_</center>
+<center><i><b>Ninja Gaiden Black</b> — отовсюду понатаскала, уважаю!</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/okami">}}
-<center>_**Okami** -- больше всего каждый раз восхищаюсь попытками ухватить стиль, хотя это кажется и вещь, которую GAN-сети умеют лучше всего_</center>
+<center><i><b>Okami</b> — больше всего каждый раз восхищаюсь попытками ухватить стиль, хотя это кажется и вещь, которую GAN-сети умеют лучше всего</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/ori_and_the_will_of_the_wisps">}}
-<center>_**Ori and the Will of the Wisps**_</center>
+<center><i><b>Ori and the Will of the Wisps</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/perfect_dark">}}
-<center>_**Perfect Dark**_</center>
+<center><i><b>Perfect Dark</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/portal">}}
-<center>_**Portal**_</center>
+<center><i><b>Portal</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/quake">}}
-<center>_**Quake** -- ммм, ооооокей, нас точно чуть не так поняли._</center>
+<center><i><b>Quake</b> — ммм, ооооокей, нас точно чуть не так поняли.</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/quake_iii_arena">}}
-<center>_**Quake III: Arena** -- да, так гораздо лучше_</center>
+<center><i><b>Quake III: Arena</b> — да, так гораздо лучше</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/red_dead_redemption">}}
-<center>_**Red Dead Redemption**_</center>
+<center><i><b>Red Dead Redemption</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/resident_evil">}}
-<center>_**Resident Evil**_</center>
+<center><i><b>Resident Evil</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/rome_total_war">}}
-<center>_**Rome: Total War** -- это... это оверлей телеканала?.._</center>
+<center><i><b>Rome: Total War</b> — это... это оверлей телеканала?..</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/sekiro_shadows_die_twice">}}
-<center>_**Sekiro: Shadows Die Twice**_</center>
+<center><i><b>Sekiro: Shadows Die Twice</b></i></center>
 
-\
-\
+<br />
 
 
 {{<img src="images/sid_meiers_civilization">}}
-<center>_**Sid Meier's Civilization** -- вы меня извините, конечно, но я здесь абсолютно точно вижу Ричарда Столлмана, прогуливающегося по глобальной карте._</center>
+<center><i><b>Sid Meier's Civilization</b> — вы меня извините, конечно, но я здесь абсолютно точно вижу Ричарда Столлмана, прогуливающегося по глобальной карте.</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/soulcalibur">}}
-<center>_**SoulCalibur**_</center>
+<center><i><b>SoulCalibur</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/splinter_cell_chaos_theory">}}
-<center>_**Splinter Cell: Chaos Theory** -- (смахивая слезу) да, да, именно так он и выглядел_</center>
+<center><i><b>Splinter Cell: Chaos Theory</b> — (смахивая слезу) да, да, именно так он и выглядел</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/star_wars_knights_of_the_old_republic">}}
-<center>_**Star Wars: Knights of the Old Republic**_</center>
+<center><i><b>Star Wars: Knights of the Old Republic</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/super_mario_galaxy">}}
-<center>_**Super Mario Galaxy** -- интересно: это достаточно близко... композиционно, что ли... к некоторым скриншотам игры._</center>
+<center><i><b>Super Mario Galaxy</b> — интересно: это достаточно близко... композиционно, что ли... к некоторым скриншотам игры.</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/system_shock">}}
-<center>_**System Shock**_</center>
+<center><i><b>System Shock</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/morrowind">}}
-<center>_**The Elder Scrolls III: Morrowind**_</center>
+<center><i><b>The Elder Scrolls III: Morrowind</b></i></center>
 
-\
-\
+<br />
 
 
 {{<img src="images/the_elder_scrolls_skyrim">}}
-<center>_**The Elder Scrolls V: Skyrim**_</center>
+<center><i><b>The Elder Scrolls V: Skyrim</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/the_last_of_us">}}
-<center>_**The Last of Us** -- наконец-то видеоигры безошибочно искусство_</center>
+<center><i><b>The Last of Us</b> — наконец-то видеоигры безошибочно искусство</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/the_legend_of_zelda_ocarina_of_time">}}
-<center>_**The Legend of Zelda: Ocarina of Time** -- что ж, по цветам попадание, допустим, почти стопроцентное_</center>
+<center><i><b>The Legend of Zelda: Ocarina of Time</b> — что ж, по цветам попадание, допустим, почти стопроцентное</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/the_orange_box">}}
-<center>_**The Orange Box** -- да ещё и не одна_</center>
+<center><i><b>The Orange Box</b> — да ещё и не одна</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/the_witcher_wild_hunt">}}
-<center>_**The Witcher 3: Wild Hunt** -- а что, и вполне даже похож._</center>
+<center><i><b>The Witcher 3: Wild Hunt</b> — а что, и вполне даже похож.</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/tomb_raider">}}
-<center>_**Tomb Raider**_</center>
+<center><i><b>Tomb Raider</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/tony_hawks_pro_skater">}}
-<center>_**Tony Hawk's Pro Skater** -- хотели буквально, но в датасете не было нужной птички, наверное_</center>
+<center><i><b>Tony Hawk's Pro Skater</b> — хотели буквально, но в датасете не было нужной птички, наверное</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/twisted_metal_black">}}
-<center>_**Twisted Metal: Black**_</center>
+<center><i><b>Twisted Metal: Black</b></i></center>
 
-\
-\
+<br />
 
 
 {{<img src="images/uncharted_among_thieves">}}
-<center>_**Uncharted: Among Thieves** -- да, я знаю, что она "2", но цифры иногда сбивают модель с толку **абсолютно**_</center>
+<center><i><b>Uncharted: Among Thieves</b> — да, я знаю, что она "2", но цифры иногда сбивают модель с толку <b>абсолютно</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/undertale">}}
-<center>_**Undertale**_</center>
+<center><i><b>Undertale</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/unreal_tournament">}}
-<center>_**Unreal Tournament** -- определённо, присутствуют вайбы некоторых карт (почему-то больше из Unreal, мне кажется)_</center>
+<center><i><b>Unreal Tournament</b> — определённо, присутствуют вайбы некоторых карт (почему-то больше из Unreal, мне кажется)</i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/vagrant_story">}}
-<center>_**Vagrant Story**_</center>
+<center><i><b>Vagrant Story</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/what_remains_of_edith_finch">}}
-<center>_**What Remains of Edith Finch**_</center>
+<center><i><b>What Remains of Edith Finch</b></i></center>
 
 
-\
-\
+<br />
 
 
 {{<img src="images/world_of_goo">}}
-<center>_**World of Goo** -- велп, и ведь даже не получится сказать, что ничего такого не просил_</center>
+<center><i><b>World of Goo</b> — велп, и ведь даже не получится сказать, что ничего такого не просил</i></center>
 
 
 

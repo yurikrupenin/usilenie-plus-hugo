@@ -10,11 +10,13 @@ timeout = 3600000
 [markup]
 angledQuotes = true
 hrefTargetBlank = true
+defaultMarkdownHandler = "goldmark"
 
+[markup.goldmark]
 [markup.goldmark.renderer]
 hardWraps = true 
 unsafe = true 
-xhtml = true 
+xhtml = true
 
 
 [Params]
